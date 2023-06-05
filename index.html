@@ -23,9 +23,19 @@
         <div class="col-sm-7 col-8 text-center">
           <h1 class="header">Dario Maroto</h1>
           <p class="helloheader">Hello, I'm Dario Maroto and I'm a future Full Stack Developer.</p>
+          
         </div>
+        <button onclick="scrollToAbout()" id="aboutBtn" class="aboutBtn mt-5" title="Go down"><i class="downArrowLeft fa-solid fa-arrow-down"></i>Discover more<i class="downArrowRight fa-solid fa-arrow-down"></i></button>
       </div>
-  
+
+      <!-- Function for the button -->
+      <script>
+        function scrollToAbout() {
+          const aboutSection = document.getElementById("about");
+          aboutSection.scrollIntoView({ behavior: "smooth"})
+        }
+      </script>
+
       <nav class="navbar sticky-top bg-body-secondary">
         <div class="container-fluid">
           <div>
@@ -37,13 +47,13 @@
                   <a class="" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="d-inline mx-3">
-                  <a class="text-black" href="#">Features</a>
+                  <a class="text-black" href="#about">About me</a>
                 </li>
                 <li class="d-inline mx-3">
-                  <a class="text-black" href="#">Pricing</a>
+                  <a class="text-black" href="#skills">Skills</a>
                 </li>
                 <li class="d-inline mx-3">
-                  <a class="text-black">whaever</a>
+                  <a class="text-black" href="#contact">Contact</a>
                 </li>
               </ul>
             <!-- </div> -->
@@ -51,9 +61,9 @@
       </nav>
       
       <!--section about-->
-      <section class="bgimage-about" id="about">
-        <div class="about-div">
-          <h2 class="about-title">About me</h2>
+      <section class="bgimage-about align-items-center" id="about">
+        <div class="about-div mx-5">
+          <h2 class="about-title mb-3">About me</h2>
           <p class="about-pg">In this personal portfolio I want to show off my skills for future employers.
           I'm currently learning HTML, CSS and JavaScript.
           In the near future I'm interested in learning Python for Machine Learning, 
@@ -62,9 +72,9 @@
         </div>
       </section>
       <!-- section skills-->
-      <section class="bgimage-about" id="skills">
-        <div class="skills-div">
-          <h2 class="skills-title">Skills</h2>
+      <section class="bgimage-about align-items-center" id="skills">
+        <div class="skills-div mx-5">
+          <h2 class="skills-title mb-3">Skills</h2>
           <p class="skills-pg">I have been working in different fields for more than 15 years.
           I possess a great eye for details
           Quick changing mind...
@@ -76,9 +86,9 @@
       <!--Services I offer as a full stack developer-->
 
       <!--section contact me-->
-      <section class="bgimage-about" id="contact">
+      <section class="bgimage-about align-items-center" id="contact">
         <div class="contact-div">
-          <h2 class="contact-title">Contact me</h2>
+          <h2 class="contact-title mb-3">Contact me</h2>
           <p class="contact-pg">Please fill out this form and let me now what can I do for you</p>
         <form method="post" action="mailto:marotodario@gmail.com" enctype="text/plain">
         <fieldset>
@@ -96,14 +106,14 @@
       </section>
 
       
-      <footer class="bgimage-nav">
+      <!--<footer class="bgimage-nav">
         <ul class="navigation">
             <li><a href="#home" class="nav-fteer">Home</a></li>
             <li><a href="#about" class="nav-fteer">About</a></li>
             <li><a href="#skills" class="nav-fteer">Skills</a></li>
-            <!--<li><a href="#projects" class="nav-fteer">Projects</a></li>-->
+            <li><a href="#projects" class="nav-fteer">Projects</a></li>
             <li><a href="#contact" class="nav-fteer">Contact me</a></li>
           </ul>
-      </footer>
+      </footer>-->
     </body>
 </html>
