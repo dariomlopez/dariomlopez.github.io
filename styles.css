@@ -1,0 +1,195 @@
+/*dario_pfolio_styles.css*/
+/* back ground image for hero header*/
+
+.bgimageh1 {
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+/* style for hero header*/
+.header {
+    position: relative;
+    /*top: auto;
+    left: 200px;
+    right: auto;*/
+    text-align: center;
+    color: ghostwhite;
+    font-size: 85px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   /* margin-bottom: -10px;*/
+}
+
+/* styles for <p> with class="helloheader" */
+.helloheader {
+    /*position: relative;
+    top: auto;
+    left: 200px;
+    right: auto;*/
+    text-justify: center;
+    text-align: center;
+    color: gainsboro;
+    font-size: 25px;
+    /*margin-bottom: -10px;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo {
+    width: 100%; /* Set the initial width to 100% of its container */
+    height: auto; /* Maintain the aspect ratio of the image */
+  
+    /* Define the maximum and minimum sizes for the logo */
+    max-width: 300px; /* Set the maximum width for the logo */
+    min-width: 200px; /* Set the minimum width for the logo */
+  
+  }
+  
+  /* Media query for screens narrower than 768px */
+  @media (max-width: 500px) {
+    .logo {
+        max-width: 300px; /* Set the maximum width for the logo */
+        min-width: 200px;
+        align-self: center;
+    }
+  }
+
+/*about me styling*/
+.bgimage-about {
+    background-size: 5px 10px;
+    background-position:center;
+    background-color:midnightblue;
+    width: 100%;
+    height: 100vh;
+    position: static;
+    padding-bottom: 0.5px;
+}
+
+.about-title, .skills-title, .contact-title {
+    text-align: center;
+    color:ghostwhite;
+    font-size: 40px;
+    margin-bottom: -5px;
+}
+
+/*styles for the divs*/
+.about-div, .skill-div, .contact-div{
+    text-align: center;
+    margin: 0 auto;
+    /*align-content: center;*/
+}
+
+/* paragraph in about styles*/
+.about-pg, .skills-pg, .contact-pg {
+    /*max-width: 0 auto;*/
+    margin: 10px 150px;    
+    text-align: center;
+    color: gainsboro;
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+/* styles for the <input>, placeholders and textarea*/
+#name, #email, #subject {min-height: 2em; 
+    background-color: rgba(1, 1, 46, 0.719); 
+    color: rgb(255, 255, 255); 
+    margin: 1.1px 0; 
+    border: 2px ridge;
+    width:24rem;
+    flex-wrap: wrap;
+}
+
+#subject{margin-bottom: 2px;}
+
+::placeholder {color: rgb(255, 255, 255);
+font-size: 1.1em;
+text-align: center;
+font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+textarea {background-color: rgba(1, 1, 46, 0.719); 
+    color: rgb(255, 255, 255); 
+    margin: 0 1px; 
+    border: 2px ridge; 
+    min-width: 24rem;
+    max-width: 50rem; 
+    min-height: 5rem;
+    max-height: 24em;
+}
+
+textarea::placeholder {color: rgb(255, 255, 255); font-size: 1.15em; font-family: Tahoma, Geneva, Verdana, sans-serif;}
+
+.submit-button {
+    color: rgb(255, 255, 255);
+    background-color: rgba(1, 1, 46, 0.719); border: 2px ridge;
+    min-height: 2rem;
+    /*width:24rem;*/
+}
+
+#contact{
+    text-align: center;
+}
+
+fieldset{
+    border: 0;
+}
+
+/* styles for the div in section class="bgimage-about"*/
+.bgimage-about div {
+    /*overflow: auto;*/
+    /*height:  100%;*/
+    flex-direction: column;
+    display: flex;
+}
+
+/*styles for the form*/
+.input-name{
+    margin: 1px;
+}
+.input-email{margin: 1px;}
+.input-subject{margin: 1px;}
+.input-message{margin: 1px;}
+.submit-button{margin:1px;}
+
+/*-- style for the unordered list with class="navigation"*/
+.navigation {
+    text-align: center;
+}
+
+footer {
+    margin-top: 25%;
+    text-align: center;
+}
+
+/* styles for the list of links with class="nav-link"*/
+.nav-link {
+    display: inline-block;
+    margin: -25% 20px;
+    text-align: center;
+}
+
+/* applies for both links nav-menu and nav-fteer*/
+.bgimage-nav {
+    background-color: black;
+    background-position: center;
+    position: relative;
+    /*height: 100px;*/
+    /*margin: 20px;*/
+    padding: 0.5px;
+}
+
+/* styles for the list of links with class="nav-fteer"*/
+.nav-fteer {
+        display: inline-block;
+        margin: 0 20px;
+        /*margin-top: 25%;*/
+        text-align: center;
+}
+/*profile paragraph*/
+.pro-prg {
+    font-family: Georgia, Verdana, Geneva, Tahoma;
+}
