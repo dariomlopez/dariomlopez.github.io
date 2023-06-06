@@ -12,21 +12,22 @@
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
       <script src="https://kit.fontawesome.com/740d3af595.js" crossorigin="anonymous"></script>
       <!--tailwind-->
-    <script src="https://cdn.tailwindcss.com"></script>
+      <!--<script src="https://cdn.tailwindcss.com"></script>-->
     </head>
-    </head>
+
     <body>
       <!-- Header -->
-      <div class="row bgimageh1 justify-content-center align-items-between flex-sm-row flex-column" id="home">
-        <div class="col-sm-4 col-sm text-center">
+      <div class="row bgimageHeader flex-sm-row flex-column" id="home">
+        <div class="col-sm-4 col-sm col-xl-4 col-3 border border-1 border-white">
           <img src="images\Pink_Logo.png" alt="Logo" class="logo">
         </div>
-        <div class="col-sm-7 col-8 text-center">
+        <div class="downButton col-sm-7 col-8 col-xl-7 text-start border border-1 border-white">
           <h1 class="header">Dario Maroto</h1>
           <p class="helloheader">Hello, I'm Dario Maroto and I'm a future Full Stack Developer.</p>
-          
         </div>
-        <button onclick="scrollToAbout()" id="aboutBtn" class="aboutBtn mt-5" title="Go down"><i class="downArrowLeft fa-solid fa-arrow-down"></i>Discover more<i class="downArrowRight fa-solid fa-arrow-down"></i></button>
+        <div class="col-sm-8">
+          <button onclick="scrollToAbout()" id="aboutBtn" class="aboutBtn mt-5" title="Go down"><i class="downArrowLeft fa-solid fa-arrow-down"></i>Discover more<i class="downArrowRight fa-solid fa-arrow-down"></i></button>
+        </div>
       </div>
 
       <!-- Function for the button -->
@@ -37,12 +38,11 @@
         }
       </script>
 
-      <nav class="navbar sticky-top bg-body-secondary">
+      <div class="navbar sticky-top bg-body-secondary ">
         <div class="container-fluid">
           <div>
             <img src="images\Pink_Logo2.png" alt="Logo" width="70" height="70" class="justify-content-start">
           </div>
-            <!-- <div class="text-nowrap navbar-expand-lg justify-content-center" id="navbarNav"> -->
               <ul class="text-nowrap justify-content-center mx-auto d-inline">
                 <li class="d-inline mx-3">
                   <a class="" aria-current="page" href="#">Home</a>
@@ -57,12 +57,11 @@
                   <a class="text-black" href="#contact">Contact</a>
                 </li>
               </ul>
-            <!-- </div> -->
         </div>
-      </nav>
+      </div>
       
       <!--section about-->
-      <section class="bgimage-about align-items-center" id="about">
+      <div class="bgimage-about align-items-center" id="about">
         <div class="about-div mx-5">
           <h2 class="about-title mb-3">About me</h2>
           <p class="about-pg">In this personal portfolio I want to show off my skills for future employers.
@@ -71,9 +70,9 @@
           AI and robotics.
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, fugiat. Rem placeat voluptatem ullam obcaecati similique labore officiis eum error.</p>
         </div>
-      </section>
+      </div>
       <!-- section skills-->
-      <section class="bgimage-about align-items-center" id="skills">
+      <div class="bgimage-about align-items-center" id="skills">
         <div class="skills-div mx-5">
           <h2 class="skills-title mb-3">Skills</h2>
           <p class="skills-pg">I have been working in different fields for more than 15 years.
@@ -81,19 +80,17 @@
           Quick changing mind...
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis nemo numquam, perspiciatis, quam mollitia delectus libero dolor cumque itaque voluptatibus, ad optio quia ipsam officia accusamus recusandae dignissimos architecto iusto?</p>
         </div>
-        </div>
-      </section>
+      </div>
       <!--section services-->
       <!--Services I offer as a full stack developer-->
 
       <!--section contact me-->
-      <section class="bgimage-about align-items-center" id="contact">
+      <div class="bgimage-about align-items-center" id="contact">
         <div class="contact-div">
           <h2 class="contact-title mb-3">Contact me</h2>
           <p class="contact-pg">Please fill out this form and let me now what can I do for you</p>
         <form method="post" action="mailto:marotodario@gmail.com" enctype="text/plain">
         <fieldset>
-          
           <label for="name"><input name="name" id="name" type="text" placeholder="Enter your name" class="input-name" required /></label><br>
           <!--<label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>-->
           <label for="email"> <input name="email" id="email" type="email" placeholder="Enter your email" class="input-email" required /></label><br>
@@ -102,9 +99,8 @@
           <input type="submit" id="submit" value="Submit the contact form" class="submit-button">
           
         </fieldset>
-          </div>
-          </div>
-      </section>
+        </div>
+      </div>
 
       
       <!--<footer class="bgimage-nav">
