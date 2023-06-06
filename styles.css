@@ -29,6 +29,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*logo of the header section*/
 .logo {
     display: block;
     text-align: center;
@@ -41,7 +42,7 @@
     min-width: 200px; /* Set the minimum width for the logo */
   }
 
-/*scroll down button styles*/
+/*scroll down button styles and functionality*/
 .aboutBtn {
     margin: 0 auto;
     display: block;
@@ -95,6 +96,13 @@
     75% {top: 5px;}
     100% {top: 0px; bottom: 0px;}
   }
+
+/*navbar styles*/
+.navbar {
+    width: 100vw;
+    min-width: 100%;
+    justify-content: center;
+}
 
 /*about me styling*/
 .bgimage-about {
