@@ -12,7 +12,7 @@ connection.connect(function(err) {
   console.log("Connected to database!");
 });
 
-let sqlQuery = "SELECT nombre FROM tabla_prueba.tabla_prueba;";
+let sqlQuery = `SELECT * FROM tabla_prueba.tabla_prueba WHERE idx >=3 AND idx <= 7;`;
 
 connection.query(sqlQuery, function(err, result, fields){
     if (err) throw err;
