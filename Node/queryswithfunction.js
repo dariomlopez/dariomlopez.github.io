@@ -6,13 +6,6 @@ const con = mysql.createConnection({
   password: ""
 });
 
-
-
-
-const queryUpdate = function(idx, campo, valor){
-  return `UPDATE tabla_prueba.tabla_prueba SET ${campo} = '${valor}' WHERE tblusuarios.idx = '${idx}';`;
-}
-
 con.connect(function(err) {
   if (err) throw err;
   console.log("Conexión exitosa a la base de datos");
@@ -21,7 +14,7 @@ con.connect(function(err) {
 // ====================================================
 const readAll = "SELECT * FROM tabla_prueba.tabla_prueba;";
 const readOne = function (id){
-  return `SELECT * FROM pruebas.tblUsuarios WHERE idx = ${id};`;
+  return `SELECT * FROM tabla_prueba.tabla_prueba WHERE idx = ${id};`;
 }
 con.query(readAll, function (err, result) {
   if (err) throw err;
@@ -60,7 +53,12 @@ con.query(queryMarca("LG"), function (err, result) {
   console.log("Query 4:")
   console.log(json);
 });
+
 // Query para actualizar un campo de un usuario
+const queryUpdate = function(idx, campo, valor){
+  return `UPDATE tabla_prueba.tabla_prueba SET ${campo} = '${valor}' WHERE tabla_prueba.idx = '${idx}';`;
+}
+
 con.query(queryUpdate(1, "nombre", "pepe"), function (err, result) {
   if (err) throw err;
   const json = JSON.parse(JSON.stringify(result, null, 2));
