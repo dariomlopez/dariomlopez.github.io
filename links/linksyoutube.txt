@@ -1,3 +1,13 @@
+== node js
+
 https://www.youtube.com/watch?v=1hpc70_OoAg
 
+=====Bases de datos SQL
+
 https://www.youtube.com/watch?v=DFg1V-rO6Pg
+
+https://www.youtube.com/watch?v=4cWkVbC2bNE
+
+https://www.youtube.com/watch?v=en6YPAgc6WM
+
+https://www.youtube.com/watch?v=HXV3zeQKqGY
