@@ -11,3 +11,7 @@ https://www.youtube.com/watch?v=4cWkVbC2bNE
 https://www.youtube.com/watch?v=en6YPAgc6WM
 
 https://www.youtube.com/watch?v=HXV3zeQKqGY
+
+https://www.coursera.org/learn/intro-sql
+
+https://www.coursera.org/specializations/learn-sql-basics-data-science
