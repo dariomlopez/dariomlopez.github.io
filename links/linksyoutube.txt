@@ -15,3 +15,6 @@ https://www.youtube.com/watch?v=HXV3zeQKqGY
 https://www.coursera.org/learn/intro-sql
 
 https://www.coursera.org/specializations/learn-sql-basics-data-science
+
+==============================
+https://www.geeksforgeeks.org/convert-text-file-to-json-in-python/
