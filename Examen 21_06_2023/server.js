@@ -41,9 +41,9 @@ connection.connect(function(err) {
           response.end(JSON.stringify(result, null, 2));
         });
       }
-      /* Manejar la solicitud GET para obtener un usuario específico por su ID. Si la url contiene "/usuarios/" */
+      /* Para manejar la solicitud GET para obtener un usuario específico por su ID. creamos un if: sí la url es "/usuarios/" y tiene un id y el metodo es GET mostramos todas las columnas de un usuario*/
       else if (request.url.startsWith("/usuarios/") && id && request.method === "GET") {
-        // Ejecutar la consulta SELECT para obtener el usuario con el ID especificado
+        // si true se ejecuta el query guardado en la variable selectOne
         connection.query(selectOne, [id], function(err, result) {
           if (err) throw err;
           console.log("Un dato");
@@ -53,7 +53,7 @@ connection.connect(function(err) {
           response.end(JSON.stringify(result, null, 2));
         });
       }
-      // Manejar la solicitud POST para crear un nuevo usuario
+      // Para manejar la solicitud POST para crear un nuevo usuario creamos un if
       else if (request.url.startsWith("/usuarios/") && id && request.method === "POST") {
         let jsonString = "";
         request.on("data", function(data) {
