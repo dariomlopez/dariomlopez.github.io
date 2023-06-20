@@ -8,7 +8,7 @@ const connection = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "",
-  database: "examen" // <-- Coloca el nombre correcto de tu base de datos
+  database: "tabla_prueba" // <-- Coloca el nombre de tu base de datos
 });
 
 // Consultas SQL
@@ -26,7 +26,7 @@ connection.connect(function(err) {
 
   // Creamos un servidor HTTP con parametros request y response
   http.createServer(function(request, response) {
-      // Obtenemos el ID del usuario a traves de la URL con el método split que devuelve un array de un string y elegimos el segundo valor del array que es el ID
+      // Obtenemos el ID del usuario a traves de la URL con el método split que devuelve un array y elegimos el segundo indice del array que es el ID
       let id = request.url.split("/")[2];
 
       // Con un if controlamos si la url no tiene un id y es de metodo get. Si true ejecutamos el query guardado en la variable selectAll
@@ -54,7 +54,7 @@ connection.connect(function(err) {
         });
       }
       // Para manejar la solicitud POST para crear un nuevo usuario creamos un if
-      else if (request.url.startsWith("/usuarios/") && id && request.method === "POST") {
+      else if (request.url.startsWith("/usuarios") && !id && request.method === "POST") {
         let jsonString = "";
         request.on("data", function(data) {
           // Leer los datos enviados por el cliente y almacenarlos en una variable
