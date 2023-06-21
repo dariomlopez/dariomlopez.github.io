@@ -36,7 +36,7 @@ connection.connect(function(err) {
           if (err) throw err;
           console.log("Lista de datos");
 
-          // Configurar la respuesta con el tipo de contenido y enviar los datos en formato JSON
+          // Configuramos la respuesta con el tipo de contenido y enviar los datos en formato JSON
           response.writeHead(200, { "Content-type": "application/json; charset=UTF-8;" });
           response.end(JSON.stringify(result, null, 2));
         });
