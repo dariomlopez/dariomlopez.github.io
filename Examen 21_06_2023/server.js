@@ -1,4 +1,4 @@
-/** Importar los módulos necesarios
+/** Importamos los módulos necesarios
  */
 const mysql = require("mysql");
 const http = require("http");

@@ -79,7 +79,7 @@ FROM tablausuarios
 ORDER BY compañia ASC;
 
 -- 4(40). Calcular la suma de los saldos de los usuarios de la compañia telefónica UNEFON
-## Usamos la función SUM() para sumar los valores de la columna saldo donde la compañia sea "UNEFON"
+## Usamos la función SUM() para sumar todos los valores de la columna saldo donde la compañia sea "UNEFON"
 SELECT SUM(saldo) FROM tablausuarios
 WHERE compañia = "UNEFON";
 
