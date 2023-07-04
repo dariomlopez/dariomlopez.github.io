@@ -1,6 +1,7 @@
-import logo from './img/logo.png';
+import logo from './components/logo.png';
 import './App.css';
-import tweets from "./json/ejemplo.json"
+import tweets from "./components/ejemplo.json"
+import Tweets from './components/tweets';
 
 
 function App() {
@@ -18,17 +19,15 @@ function App() {
         </h2>
         <div className="container">
           <p>
-            {tweets.map(({nickName, writed_on, content})=>(
-              <div className="tweet-ind" key={tweets.id}>
+            {tweets.map(({id, nickName, wrote_on, content})=>(
+              <Tweets className="tweet-ind" key={id} nickName={nickName} wrote_on={wrote_on} content={content}>
                 <p>{content}</p>
-                <p className="tweet-autor">
-                  @{nickName} - {writed_on}
-                </p>
-              </div>
+              </Tweets>
             ))}
           </p>
         </div>
       </main>
+      
     </div>
   );
 }

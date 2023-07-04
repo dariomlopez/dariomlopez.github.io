@@ -25,9 +25,11 @@
 .tweet-ind{
   background: #0e242a;
   border: 2px dotted white;
-  margin: 5px auto;
+  margin: 0px 10px;
   border-radius: 30px;
-  padding: 0 20px;
+  padding: 0px 10px;
+  max-width: 60vh;
+  min-width: 40vh;
 }
 
 .tweet-ind:hover{
