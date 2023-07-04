@@ -9,6 +9,8 @@ Generador de contraseñas
 https://www.youtube.com/watch?v=6auQ8zu6_lw
 3 Proyectos:
 https://www.youtube.com/watch?v=0C5yFwOYhAk
+--Twitter clone:
+https://nicotsou.com/react-twitter-clone/
 
 =====Bases de datos SQL
 Dalto:
