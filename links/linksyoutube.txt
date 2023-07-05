@@ -11,6 +11,7 @@ https://www.youtube.com/watch?v=6auQ8zu6_lw
 https://www.youtube.com/watch?v=0C5yFwOYhAk
 --Twitter clone:
 https://nicotsou.com/react-twitter-clone/
+https://www.youtube.com/watch?v=qkzcjwnueLA
 
 =====Bases de datos SQL
 Dalto:
