@@ -4,16 +4,16 @@ function Tweets(tweet){
 
   return (
     
-        <div className="container">
-          <p>
-              <div className="tweet-ind" key={id}>
-                <p>{content}</p>
-                <p className="tweet-autor">
-                  @{nickName} - {wrote_on}
-                </p>
-              </div>
+  <div className="container">
+    <div>
+        <div className="tweet-ind" key={id}>
+          <p>{content}</p>
+          <p className="tweet-autor">
+          #{nickName} - {wrote_on}
           </p>
         </div>
+    </div>
+  </div>
   );
 }
 

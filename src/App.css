@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 25vmin;
+  height: 15vmin;
   pointer-events: none;
 }
 
@@ -15,7 +15,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -39,4 +38,76 @@
 .tweet-autor {
   font-size: 17px;
   text-align: right;
+}
+
+.navBar{
+  display: flex;
+  position: sticky;
+  top: 0;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  background-color: burlywood;
+  margin: 0;
+  padding: 0;
+}
+
+.navUl {
+  list-style-type: none;
+  display: flex;
+}
+
+.navUl li{
+  margin: 10px;
+}
+
+.navbar-title{
+  color: #25c1ec;
+  margin: 9px;
+  font-size: 3rem;
+}
+
+.navbar-logo, .navbar-title{
+  float: left;
+}
+
+.main {
+  background-color: #1b2230;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: antiquewhite;
+  min-width: 100%;
+}
+
+.nabvar-home, .navbar-tweets, .navbar-registro, .navbar-login {
+  float: right;
+  margin: 15px;
+} 
+
+.User{
+  background-color: #1b2230;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(4px + 2vmin);
+  color: antiquewhite;
+  min-width: 50%;
+  max-width: 100%;
+  margin: 0 ;
+  padding: 0;
+}
+
+.userTable{
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
 }
