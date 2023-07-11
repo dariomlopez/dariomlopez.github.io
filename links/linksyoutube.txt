@@ -1,6 +1,17 @@
 == node js
-
+--Freecodecamp:
 https://www.youtube.com/watch?v=1hpc70_OoAg
+
+===================================
+=================================
+--React
+Generador de contraseñas
+https://www.youtube.com/watch?v=6auQ8zu6_lw
+3 Proyectos:
+https://www.youtube.com/watch?v=0C5yFwOYhAk
+--Twitter clone:
+https://nicotsou.com/react-twitter-clone/
+https://www.youtube.com/watch?v=qkzcjwnueLA
 
 =====Bases de datos SQL
 Dalto:
@@ -17,4 +28,7 @@ https://www.coursera.org/learn/intro-sql
 https://www.coursera.org/specializations/learn-sql-basics-data-science
 
 ==============================
-https://www.geeksforgeeks.org/convert-text-file-to-json-in-python/
+NextJS
+-- Proyecto airbnb clon con Next:
+https://www.youtube.com/watch?v=c_-b_isI4vg
+https://www.youtube.com/watch?v=H_s-xM6Ii1g
