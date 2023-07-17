@@ -13,6 +13,9 @@ https://www.youtube.com/watch?v=0C5yFwOYhAk
 https://nicotsou.com/react-twitter-clone/
 https://www.youtube.com/watch?v=qkzcjwnueLA
 
+--travel blog clone:
+https://www.youtube.com/watch?v=XxXyfkrP298
+
 =====Bases de datos SQL
 Dalto:
 https://www.youtube.com/watch?v=DFg1V-rO6Pg
