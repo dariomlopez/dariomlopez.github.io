@@ -1,12 +1,24 @@
 == node js
 --Freecodecamp:
 https://www.youtube.com/watch?v=1hpc70_OoAg
+--Chat with node
+https://www.youtube.com/watch?v=Fzv-rgwcFKk
 
 ===================================
+full stack project:
+https://www.youtube.com/watch?v=5miHyP6lExg
+https://www.youtube.com/watch?v=k4lHXIzCEkM
+
+Employee manager:
+https://www.youtube.com/watch?v=18WAdYHILrY
+--Booking clone
+https://www.youtube.com/watch?v=k3Vfj-e1Ma4
+--Portfolio
+https://www.youtube.com/watch?v=Yw7yWHigGKI
 =================================
 --React
 Generador de contraseñas
-https://www.youtube.com/watch?v=6auQ8zu6_lw
+https://www.youtube.com/watch?v=6auQ8zu6_lw  --Empezado
 3 Proyectos:
 https://www.youtube.com/watch?v=0C5yFwOYhAk
 --Twitter clone:
@@ -15,6 +27,9 @@ https://www.youtube.com/watch?v=qkzcjwnueLA
 
 --travel blog clone:
 https://www.youtube.com/watch?v=XxXyfkrP298
+---
+https://www.youtube.com/watch?v=tllZWCQZ9_0
+https://www.youtube.com/watch?v=dyFVwXROzZk
 
 =====Bases de datos SQL
 Dalto:
