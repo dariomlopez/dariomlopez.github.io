@@ -16,6 +16,10 @@ function App() {
             <Button>+</Button>
           </Control>
         </Row>
+        <Row>
+          <label>Incluir simbolos</label>
+          <Button>Sí</Button>
+        </Row>
       </form>
     
     </div>
