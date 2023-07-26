@@ -1,3 +1,4 @@
+/**Importing modules */
 import "./App.css";
 import styled from "styled-components";
 
@@ -28,6 +29,7 @@ function App() {
 
 export default App;
 
+/**Components */
 const Row = styled.div`
   margin-bottom: 40px;
   display: grid;
