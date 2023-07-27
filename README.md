@@ -1,13 +1,36 @@
-<h1 align="center">Hi 👋, I'm Darío</h1>
-<h3 align="center">A passionate Full Stack developer from Spain</h3>
+## Overview
+Welcome to my Full Stack Developer portfolio! This repository showcases my skills, projects, and experiences as a Full Stack Developer. I am passionate about building robust and user-friendly web applications and I love working with both the front-end and back-end technologies.
 
-- 🌱 I’m currently learning **React, NodeJS, JavaScript, HTML, CSS**
+## Technologies and Tools
+- Front-end: HTML, CSS, JavaScript, React.js, Vue.js
+- Back-end: Node.js, Express.js, Django, Flask
+- Database: MongoDB, MySQL, PostgreSQL
+- Version Control: Git, GitHub
+- Deployment: Heroku, AWS, Netlify
 
-- 📫 How to reach me **dmarotolopez@gmail.com**
+## Projects
+1. Project Name 1
+   - Description: Briefly describe your project, its purpose, and the technologies used.
+   - GitHub Repository: Provide a link to the GitHub repository.
+   - Live Demo: If applicable, include a link to the live demo.
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+2. Project Name 2
+   - Description: Briefly describe your project, its purpose, and the technologies used.
+   - GitHub Repository: Provide a link to the GitHub repository.
+   - Live Demo: If applicable, include a link to the live demo.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+## Experience
+- Company Name 1 | Full Stack Developer | Dates
+  - Briefly describe your responsibilities and key achievements in this role.
+
+- Company Name 2 | Full Stack Developer | Dates
+  - Briefly describe your responsibilities and key achievements in this role.
+
+## Contact Information
+- Email: your.email@example.com
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/yourprofile/)
+
+## Additional Information
+Feel free to explore the projects in this repository and connect with me on LinkedIn. I am open to new opportunities and collaborations, and I am excited about contributing to innovative and impactful projects as a Full Stack Developer.
+
+Thank you for visiting my portfolio!
