@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Dario Maroto Portfolio</title>
+      <link rel="icon" href="images/Pink_Logo2.png">
+      <!-- CSS Styles -->  
+      <link href="styles.css" rel="stylesheet">
+      <!-- bootstrap library -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+      <!-- fontawesome library -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
+      <!--tailwind-->
+      <!--<script src="https://cdn.tailwindcss.com"></script>
+      <script src="https://kit.fontawesome.com/740d3af595.js" crossorigin="anonymous"></script>-->
+    </head>
+
+    <body>
+      <!-- Header -->
+      <div class="row bgimageHeader flex-sm-row flex-column" id="home">
+        <div class="col-sm-12 col-sm col-xl-4 col-3 text-center">
+          <img src="images\Pink_Logo.png" alt="Logo" class="logo">
+        </div>
+        <div class="col-sm-12 col-8 col-xl-7 text-center">
+          <h1 class="header">Dario Maroto</h1>
+          <p class="helloheader">Hello, I'm Dario Maroto and I'm a future Full Stack Developer.</p>
+        </div>
+        <div class="col-sm-8">
+          <button onclick="scrollToAbout()" id="aboutBtn" class="aboutBtn mt-5" title="Go down"><i class="downArrowLeft fa-solid fa-arrow-down"></i>Discover more<i class="downArrowRight fa-solid fa-arrow-down"></i></button>
+        </div>
+      </div>
+
+      <!-- Function for the button -->
+      <script>
+        function scrollToAbout() {
+          const aboutSection = document.getElementById("about");
+          aboutSection.scrollIntoView({ behavior: "smooth"})
+        }
+      </script>
+
+      <div class="navbar sticky-top bg-body-secondary container">
+        
+          <div class="">
+            <img src="images\Pink_Logo2.png" alt="Logo" width="100" height="100" class="logoNav">
+          </div>
+          <div class="border border-1 border-black">
+              <ul class="text-nowrap d-inline">
+                <li class="d-inline mx-3">
+                  <a class="text-black" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="d-inline mx-3">
+                  <a class="text-black" href="#about">About me</a>
+                </li>
+                <li class="d-inline mx-3">
+                  <a class="text-black" href="#skills">Skills</a>
+                </li>
+                <li class="d-inline mx-3">
+                  <a class="text-black" href="#contact">Contact</a>
+                </li>
+              </ul>
+          </div>
+        
+      </div>
+      
+      <!--section about-->
+      <div class="bgimage-about align-items-center" id="about">
+        <div class="about-div mx-5">
+          <h2 class="about-title mb-3">About me</h2>
+          <p class="about-pg">In this personal portfolio I want to show off my skills for future employers.
+          I'm currently learning HTML, CSS and JavaScript.
+          In the near future I'm interested in learning Python for Machine Learning, 
+          AI and robotics.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, fugiat. Rem placeat voluptatem ullam obcaecati similique labore officiis eum error.</p>
+        </div>
+      </div>
+      <!-- section skills-->
+      <div class="bgimage-about align-items-center" id="skills">
+        <div class="skills-div mx-5">
+          <h2 class="skills-title mb-3">Skills</h2>
+          <p class="skills-pg">I have been working in different fields for more than 15 years.
+          I possess a great eye for details
+          Quick changing mind...
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis nemo numquam, perspiciatis, quam mollitia delectus libero dolor cumque itaque voluptatibus, ad optio quia ipsam officia accusamus recusandae dignissimos architecto iusto?</p>
+        </div>
+      </div>
+      <!--section services-->
+      <!--Services I offer as a full stack developer-->
+
+      <!--section contact me-->
+      <div class="bgimage-about align-items-center" id="contact">
+        <div class="contact-div">
+          <h2 class="contact-title mb-3">Contact me</h2>
+          <p class="contact-pg">Please fill out this form and let me now what can I do for you</p>
+        <form method="post" action="mailto:marotodario@gmail.com" enctype="text/plain">
+        <fieldset>
+          <label for="name"><input name="name" id="name" type="text" placeholder="Enter your name" class="input-name" required /></label><br>
+          <!--<label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>-->
+          <label for="email"> <input name="email" id="email" type="email" placeholder="Enter your email" class="input-email" required /></label><br>
+          <label for="subject"> <input id="subject" name="subject" type="text" placeholder="Email subject" class="input-subject" required /></label><br>
+          <label for="message"><textarea id="message" name="subject" type="text" placeholder="Send me a message" class="input-message" rows="4" cols="50" required></textarea></label><br>
+          <input type="submit" id="submit" value="Submit the contact form" class="submit-button">
+          
+        </fieldset>
+        </div>
+      </div>
+
+      
+      <!--<footer class="bgimage-nav">
+        <ul class="navigation">
+            <li><a href="#home" class="nav-fteer">Home</a></li>
+            <li><a href="#about" class="nav-fteer">About</a></li>
+            <li><a href="#skills" class="nav-fteer">Skills</a></li>
+            <li><a href="#projects" class="nav-fteer">Projects</a></li>
+            <li><a href="#contact" class="nav-fteer">Contact me</a></li>
+          </ul>
+      </footer>-->
+    </body>
+</html>
