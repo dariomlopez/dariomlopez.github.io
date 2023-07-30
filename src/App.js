@@ -3,8 +3,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Under construction</h1>
+    <div className="flex w-screen h-screen items-center justify-center">
+      <h1 className="text-5xl text-blue-500 font-black	">Under construction</h1>
       <p>lalalalal</p>
     </div>
   );
