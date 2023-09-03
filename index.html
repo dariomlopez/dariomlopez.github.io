@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="styles.css" rel="stylesheet">
   <link href="mediaqueries.css" rel="stylesheet">
-  <script src="script.js" type="module"></script>
+  <script src="script.js"></script>
   <title>Dario Maroto's Portfolio</title>
 </head>
 <body>
-  <nav id="dekstop-nav">
+  <nav id="desktop-nav">
     <div class="logo-div"><img class="logo" src="./assets/Logo-full-name.png" alt="logo"></div>
     <div>
         <ul class="nav-links">
@@ -26,6 +26,30 @@
             <a href="#contact" class="">Contact</a>
           </li>
         </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo"><img class="logo" src="./assets/Logo-full-name.png" alt="logo"></div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li>
+          <a href="#about" onclick="toggleMenu()">About</a>
+        </li>
+        <li>
+          <a href="#experience" onclick="toggleMenu()">Experience</a>
+        </li>
+        <li>
+          <a href="#projects" onclick="toggleMenu()">Projects</a>
+        </li>
+        <li>
+          <a href="#contact" onclick="toggleMenu()">Contact</a>
+        </li>
+      </div>
     </div>
   </nav>
 </body>
