@@ -53,15 +53,26 @@ a:hover {
   color: grey;
 }
 
+/*desktop nav*/
+#desktop-nav {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(244, 205, 155);
+  position: sticky;
+  top: 0;
+}
+
 /* Logo */
 .logo-div {
   user-select: none;
 }
 
 .logo {
-  /* margin: 0 70vw 0 0; */
-  width: 5.5rem;
-  height: 5.5rem;
+  position: fixed;
+  top: 2px;
+  left: 20px;
+  width: 5rem;
+  height: 5rem;
 }
 
 /* Hamburguer menu */
@@ -73,8 +84,7 @@ a:hover {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 99;
-  background-color: antiquewhite;
+  background-color: rgb(244, 205, 155);
 }
 
 .hamburger-menu {
@@ -149,4 +159,31 @@ a:hover {
 
 .hamburger-icon span:first-child{
   transform: none;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+#hero-pic {
+  width: 250px;
+  height: 250px;
+}
+
+
+
+/*footer*/
+
+footer {
+  background-color: aqua;
+  position: fixed;
+  bottom: 2px;
+  left: 2px;
+  font-size: 13px;
+}
+
+footer img {
+  width: 15px;
+  height: 15px;
 }
