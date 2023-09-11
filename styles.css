@@ -15,7 +15,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: rgb(0, 0, 0);
 }
 
 /* Transitions */
@@ -33,6 +33,7 @@ nav, .nav-links {
 nav {
   justify-content: space-around;
   align-items: center;
+  text-align: center;
   height: 17vh;
   margin-top: 15px;
 }
@@ -71,8 +72,8 @@ a:hover {
   position: fixed;
   top: 2px;
   left: 20px;
-  width: 5rem;
-  height: 5rem;
+  width: 100px;
+  height: 100px;
 }
 
 /* Hamburguer menu */
@@ -90,6 +91,7 @@ a:hover {
 .hamburger-menu {
   position: relative;
   display: inline-block;
+  justify-content: center;
 }
 
 .hamburger-icon {
@@ -167,8 +169,8 @@ section {
 }
 
 #hero-pic {
-  width: 250px;
-  height: 250px;
+  width: 270px;
+  height: 270px;
 }
 
 
