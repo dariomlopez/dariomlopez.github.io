@@ -1,4 +1,3 @@
-// Cambio de idioma https://www.youtube.com/watch?v=hBYVxQLtrqQ
 
 // Cómo cambiar de idioma una página web --> https://www.youtube.com/watch?v=hBYVxQLtrqQ&ab_channel=DorianDesings
 
