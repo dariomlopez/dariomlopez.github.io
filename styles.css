@@ -1,24 +1,53 @@
-/* Cómo cambiar de idioma una página web --> https://www.youtube.com/watch?v=hBYVxQLtrqQ&ab_channel=DorianDesings */
+/* TODO */
+
+/* [] Cómo cambiar de idioma una página web --> https://www.youtube.com/watch?v=hBYVxQLtrqQ&ab_channel=DorianDesings */
+
+/* [] dark mode 
+https://bootcamp.uxdesign.cc/create-a-dark-mode-for-your-website-d62e73a4275d */
 @import url('https://fonts.googleapis.com/css?family=Alata|Akshar|Adamina|Roboto');
 
 /* General styles */
 * {
   margin: 0;
-  padding: 0;
+}
+
+/* body styles */
+.dark {
+  --main-bg: #16263b;
+  --text-bg: #507dbc;
+  --shadow: #a1c6ea;
+  --text-sec: #bbd1ea;
+  --text-main: #dae3e5;
+}
+
+.light {
+  --main-bg: #dae3e5;
+  --text-bg: #bbd1ea;
+  --shadow: #a1c6ea;
+  --text-sec: #507dbc;
+  --text-main: #16263b;
+}
+
+.page {
+position: relative;
+background-color: var(--main-bg);
+/* display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; */
+min-height: 100vh;
+box-sizing: border-box;
+/* padding: 8px; */
 }
 
 body {
   font-family: Alata, Akshar, Adamina, Roboto, Oxygen, Geneva, Tahoma, sans-serif;
-  background-color: rgb(17 24 39);
+  background-color: var(--main-bg);
 }
 
 html {
   scroll-behavior: smooth;
 }
-
-/* p {
-  color: rgb(0, 0, 0);
-} */
 
 /* Transitions */
 
@@ -71,29 +100,37 @@ a:hover {
 }
 
 .logo {
-  position: fixed;
-  top: 2px;
-  left: 20px;
-  width: 80px;
-  height: 80px;
+  /* top: 1px; */
+  left: 5px;
+  width: 87px;
+  height: 87px;
 }
 
 /* Hamburguer menu */
 #hamburger-nav {
+  z-index: 999;
   display: none;
-  position: fixed;
+  position: sticky !important;
   margin: 0;
   padding: 0;
   top: 0;
-  left: 0;
   width: 100%;
   background-color: rgb(244, 205, 155);
 }
 
+#hamburger-nav .logo {
+  left: 5px;
+  margin: 0px;
+  position: fixed;
+  width: 87px;
+  height: 87px;
+}
+
 .hamburger-menu {
-  position: relative;
+  position: absolute;
   display: inline-block;
   justify-content: center;
+  right: 35px;
 }
 
 .hamburger-icon {
@@ -165,6 +202,31 @@ a:hover {
   transform: none;
 }
 
+/* Theme toggle */
+#toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  user-select: none;
+  height: 50px;
+}
+
+.toggle-input {
+  /* position: absolute; */
+  user-select: none;
+  display: none;
+}
+
+
+#night-mode-icon, #light-mode-icon {
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  /* left: 100px; */
+  bottom: 10px;
+}
+
 #profile {
   display: flex;
   justify-content: center;
@@ -190,6 +252,13 @@ a:hover {
 
 #hero-name, #hero-role {
   color: aliceblue;
+}
+
+#theme-button {
+  display: block;
+  z-index: 99;
+  inset-inline-end: 100px;
+  inset-block-end: 40px;
 }
 
 /*footer*/
