@@ -16,3 +16,20 @@ function toggleMenu() {
   menu.classList.toggle("open");
   icon.classList.toggle("open");
 }
+
+const page = document.querySelector(".page");
+const toggle = document.querySelector(".toggle-input");
+
+toggle.addEventListener("change", toggleTheme());
+
+function toggleTheme() {
+  if(toggle.checked) {
+    page.classList.replace("light", "dark")
+  } else {
+    page.classList.replace("dark", "light");
+  }
+
+  if(page.classList.contains("dark")) {
+    toggleIcon.src = "./assets/light.png"
+  }
+}

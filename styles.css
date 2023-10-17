@@ -226,17 +226,19 @@ a:hover {
   border: 3px solid var(--shadow);
   background-color: var(--text-bg);
   border-radius: 50px;
+  width: 50px;
   margin: 0;
   height: 25px;
 }
 
 .toggle-label:hover {
   cursor: pointer;
-  background: linear-gradient(270deg, rgba(22,38,59,1) 30%, rgb(168, 188, 239) 76%);
+  background: linear-gradient(85deg, rgba(22,38,59,1) 30%, rgb(135, 164, 238) 66%);
 }
 
 .toggle-label img {
   border-radius: 50px;
+  justify-self: center;
 }
 
 .toggle-label:active {
