@@ -274,8 +274,12 @@ a:hover {
   padding: 0 15px;
 }
 
-#hero-name, #hero-role {
+#hero-name {
   color: var(--text-main);
+}
+
+#hero-role {
+  color: var(--text-sec);
 }
 
 #theme-button {
