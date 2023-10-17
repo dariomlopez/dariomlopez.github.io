@@ -10,6 +10,10 @@
 
 // https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-using-custom-properties
 
+const page = document.querySelector(".page");
+const toggle = document.querySelector(".toggle-input");
+const toggleIcon = page.querySelector(".toggle-icon");
+
 function toggleMenu() {
   const menu = document.querySelector(".menu-links");
   const icon = document.querySelector(".hamburger-icon");
@@ -17,19 +21,48 @@ function toggleMenu() {
   icon.classList.toggle("open");
 }
 
-const page = document.querySelector(".page");
-const toggle = document.querySelector(".toggle-input");
+// function bodyReplaceClass() {
+//   if(toggle.checked) {
+//     page.classList.replace("light", "dark")
+//   } else {
+//     page.classList.replace("dark", "light");
+//   }
+// }
 
-toggle.addEventListener("change", toggleTheme());
+function toggleIconTheme() {
+  if(page.classList.contains("dark")) {
+    toggleIcon.src = "./assets/light.png";
+    toggleIcon.alt = "Light mode";
+  } else {
+    toggleIcon.src = "./assets/night-mode.png";
+    toggleIcon.alt = "Light mode";
+  }
+}
+
+function checkedState() {
+  if (!(localStorage.checked === undefined)) {
+    toggle.checked = isTrue(localStorage.getItem("checked"));
+    toggleTheme();
+  }
+}
 
 function toggleTheme() {
   if(toggle.checked) {
-    page.classList.replace("light", "dark")
+    page.classList.remove("light");
+    page.classList.add("dark")
   } else {
-    page.classList.replace("dark", "light");
+    page.classList.remove("dark");
+    page.classList.add("light")
   }
-
-  if(page.classList.contains("dark")) {
-    toggleIcon.src = "./assets/light.png"
-  }
+    // bodyReplaceClass();
+  toggleIconTheme();
+  localStorage.setItem("checked", toggle.checked);
 }
+
+function isTrue(value) {
+    return value === "true";
+}
+
+checkedState();
+
+toggle.addEventListener("change", toggleTheme);

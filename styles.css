@@ -275,7 +275,7 @@ a:hover {
 }
 
 #hero-name, #hero-role {
-  color: aliceblue;
+  color: var(--text-main);
 }
 
 #theme-button {
