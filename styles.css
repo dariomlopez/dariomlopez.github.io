@@ -1,3 +1,4 @@
+/* Cómo cambiar de idioma una página web --> https://www.youtube.com/watch?v=hBYVxQLtrqQ&ab_channel=DorianDesings */
 @import url('https://fonts.googleapis.com/css?family=Alata|Akshar|Adamina|Roboto');
 
 /* General styles */
@@ -8,15 +9,16 @@
 
 body {
   font-family: Alata, Akshar, Adamina, Roboto, Oxygen, Geneva, Tahoma, sans-serif;
+  background-color: rgb(17 24 39);
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-p {
+/* p {
   color: rgb(0, 0, 0);
-}
+} */
 
 /* Transitions */
 
@@ -136,7 +138,7 @@ a:hover {
 }
 
 .menu-links.open {
-  max-height: 300px;
+  max-height: 340px;
 }
 
 .hamburger-icon.open span:first-child {
@@ -163,12 +165,20 @@ a:hover {
   transform: none;
 }
 
-section {
+#profile {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   margin: 0;
   padding: 0;
+  text-align: center;
   width: 100vw;
+}
+
+.hero-div-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #hero-pic {
@@ -176,6 +186,10 @@ section {
   height: 130px;
   border-radius: 15px;
   padding: 0 15px;
+}
+
+#hero-name, #hero-role {
+  color: aliceblue;
 }
 
 /*footer*/

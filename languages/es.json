@@ -1,4 +1,11 @@
 {
+  "navbar": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "lang": "Idioma"
+  },
   "profile": {
     "rol": "Desarrollador Full-Stack",
     "description": "En abril de 2023, decidí tomar un receso profesional para embarcarme en un Certificado de Profesionalidad. Esta experiencia me proporcionó herramientas tanto a nivel profesional como personal, preparándome para afrontar nuevos y emocionantes desafíos.<br>Estoy entusiasmado por la idea de encontrar mi primer trabajo, donde pueda aplicar lo aprendido durante este curso y continuar mi formación. Mi interés se centra especialmente en la programación backend, con un enfoque en lenguajes como Python y entornos de desarrollo como NodeJS para JavaScript."
