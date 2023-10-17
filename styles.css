@@ -216,15 +216,37 @@ a:hover {
   /* position: absolute; */
   user-select: none;
   display: none;
+  opacity: 0;
 }
 
+.toggle-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid var(--shadow);
+  background-color: var(--text-bg);
+  border-radius: 50px;
+  margin: 0;
+  height: 25px;
+}
+
+.toggle-label:hover {
+  cursor: pointer;
+  background: linear-gradient(270deg, rgba(22,38,59,1) 30%, rgb(168, 188, 239) 76%);
+}
+
+.toggle-label img {
+  border-radius: 50px;
+}
+
+.toggle-label:active {
+  transform: scale(0.95);
+}
 
 #night-mode-icon, #light-mode-icon {
   width: 25px;
   height: 25px;
-  background-color: black;
-  /* left: 100px; */
-  bottom: 10px;
+  background-color: #16263b;
 }
 
 #profile {
