@@ -16,6 +16,22 @@ const toggle = document.querySelector(".toggle-input");
 const toggleIcon = page.querySelector(".toggle-icon");
 
 /** Elementos del DOM para cambio de idioma */
+/** tag select cuando la pantalla es grande */
+const langElementDesk = document.getElementById("lang-select");
+
+/** tag select cuando la pantalla es pequeña */
+const langElementSmall = document.getElementById("lang-select-small");
+
+/** Comprobando que el valor escogido esta bien seleccionado */
+langElementDesk.addEventListener("change", () => {
+  const selectValue = langElementDesk.value;
+  console.log(selectValue);
+});
+langElementSmall.addEventListener("change", () => {
+  const selectValue = langElementSmall.value;
+  console.log(selectValue)
+});
+
 
 /** Función para cambiar el menu del navbar */
 function toggleMenu() {
