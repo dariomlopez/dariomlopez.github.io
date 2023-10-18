@@ -251,6 +251,7 @@ a:hover {
   background-color: #16263b;
 }
 
+/*Estilos para el encabezado (hero-header)*/
 #profile {
   display: flex;
   justify-content: center;
@@ -278,8 +279,12 @@ a:hover {
   color: var(--text-main);
 }
 
-#hero-role {
+#hero-role, #hello {
   color: var(--text-sec);
+}
+
+#hero-role {
+  margin-top: 10px;
 }
 
 #theme-button {
