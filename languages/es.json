@@ -9,36 +9,57 @@
   "profile": {
     "hello": "Hola! Soy",
     "rol": "Desarrollador Full-Stack",
-    "description": "En abril de 2023, decidí tomar un receso profesional para embarcarme en un Certificado de Profesionalidad. Esta experiencia me proporcionó herramientas tanto a nivel profesional como personal, preparándome para afrontar nuevos y emocionantes desafíos.<br>Estoy entusiasmado por la idea de encontrar mi primer trabajo, donde pueda aplicar lo aprendido durante este curso y continuar mi formación. Mi interés se centra especialmente en la programación backend, con un enfoque en lenguajes como Python y entornos de desarrollo como NodeJS para JavaScript."
+    "description": "En abril de 2023, decidí tomar un receso profesional para embarcarme en un Certificado de Profesionalidad. <br>Esta experiencia me proporcionó herramientas tanto a nivel profesional como personal, preparándome para afrontar nuevos y emocionantes desafíos.<br>Estoy entusiasmado por la idea de encontrar mi primer trabajo, donde pueda aplicar lo aprendido durante este curso y continuar mi formación. En fúturo próximo quiero centrar especialmente mi interes en la programación backend, con un enfoque en lenguajes como Python y entornos de desarrollo como NodeJS para JavaScript."
   },
 
   "experience": {
-    "jobTitle": "Descanso profesional: Certificado de profesionalidad Programación de Sistemas Informáticos",
-    "jobDate": "Abril 2023 - Octubre 2023",
-    "jobDescription": ""
-  },
+    "Experience1": {
+      "jobTitle": "Curso en Ciberseguridad y hacking ético",
+      "jobPlace": "Fundación Adecco",
+      "jobDate": "Octubre 2023 - Presente",
+      "jobDescription": "Inmerso en un curso centrado en protección digital:<br> Identificación y gestión de amenazas digitales, salvaguarda de información en línea y prevención de suplantación de identidad.<br> Uso avanzado de herramientas de anonimato y protocolos de seguridad en redes. <br>Dominio de Kali Linux, análisis exhaustivo de vulnerabilidades y gestión de usuarios/contraseñas. <br>Continua formación en habilidades de programación en Python, explorando estrategias ofensivas y defensivas en ciberseguridad."
+    },
 
-  "secondExperience": {
-    "jobTitle": "Descanso profesional: Certificado de profesionalidad Programación de Sistemas Informáticos",
-    "jobDate": "Abril 2023 - Octubre 2023",
-    "jobDescription": ""
-  },
+    "Experience2": {
+      "jobTitle": "Prácticas en empresa",
+      "jobPlace": "Onets SL",
+      "jobDate": "Octubre 2023 - diciembre 2023",
+      "jobDescription": "Tras completar el Certificado de Profesionalidad, participo en un programa de prácticas, en el cual estoy aplicando y mejorando activamente mis conocimientos adquiridos en un entorno real. <br>En Onets, estoy colaborando y utilizando mi competencia en varios lenguajes y herramientas de programación como HTML5, CSS3 (incluyendo Bootstrap 5 y Tailwind 3), JavaScript ES6 (incluyendo Node.js y React), MySQL 8, y otros.<br>🚀 Esta experiencia práctica no solo mejora mis habilidades técnicas, sino que también proporciona valiosos conocimientos sobre las prácticas de la industria y la dinámica de trabajo en equipo.<br>🌱 Estas prácticas son esenciales para reforzar mis conocimientos y avanzar hacia mis objetivos profesionales."
+    },
 
-  "thirdExperience": {
-    "jobTitle": "Descanso profesional: Certificado de profesionalidad Programación de Sistemas Informáticos",
-    "jobDate": "Abril 2023 - Octubre 2023",
-    "jobDescription": ""
-  },
+    "Experience3": {
+      "jobTitle": "Certificado de profesionalidad Programación de Sistemas Informáticos",
+      "jobPlace": "Fundación Adecco",
+      "jobDate": "Abril 2023 - Octubre 2023",
+      "jobDescription": "Participando en un Certificado de Profesionalidad centrado en el desarrollo Full-Stack que cubre una variedad de lenguajes, bibliotecas, frameworks y otras herramientas de desarrollo como HTML 5; CSS 3, incluyendo Bootstrap 5 y Tailwind 3; JavaScript 6, incluyendo Node.js y React; MySQL 8 y Python entre otros.<br> Aplicación diaria de estas habilidades en proyectos personales y académicos, enriqueciendo mi competencia técnica y adquiriendo habilidades valiosas para mi futuro profesional y aspiraciones personales."
+    },
 
-  "fourdExperience": {
-    "jobTitle": "Descanso profesional: Certificado de profesionalidad Programación de Sistemas Informáticos",
-    "jobDate": "Abril 2023 - Octubre 2023",
-    "jobDescription": ""
-  },
-  
-  "fithExperience": {
-    "jobTitle": "Descanso profesional: Certificado de profesionalidad Programación de Sistemas Informáticos",
-    "jobDate": "Abril 2023 - Octubre 2023",
-    "jobDescription": ""
+    "Experience4": {
+      "jobTitle": "Descanso profesional: Certificado de profesionalidad Programación de Sistemas Informáticos",
+      "jobPlace": "Fundación Adecco",
+      "jobDate": "Abril 2023 - Octubre 2023",
+      "jobDescription": ""
+    },
+
+    "Experience5": {
+      "jobTitle": "Descanso profesional: Certificado de profesionalidad Programación de Sistemas Informáticos",
+      "jobPlace": "Fundación Adecco",
+      "jobDate": "Abril 2023 - Octubre 2023",
+      "jobDescription": ""
+    },
+
+    "Experience6": {
+      "jobTitle": "Descanso profesional: Certificado de profesionalidad Programación de Sistemas Informáticos",
+      "jobPlace": "Fundación Adecco",
+      "jobDate": "Abril 2023 - Octubre 2023",
+      "jobDescription": ""
+    },
+    
+    "Experience7": {
+      "jobTitle": "Descanso profesional: Certificado de profesionalidad Programación de Sistemas Informáticos",
+      "jobPlace": "Fundación Adecco",
+      "jobDate": "Abril 2023 - Octubre 2023",
+      "jobDescription": ""
+    }
   }
 }
