@@ -1,3 +1,76 @@
 {
-  
+  "navbar": {
+    "about": "About Me",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "lang": "Language"
+  },
+  "profile": {
+    "hello": "Hello! I'm",
+    "rol": "Full-Stack Developer",
+    "description": "In April 2023, I decided to take a professional break to embark on a Professional Certification. <br>This experience provided me with tools both professionally and personally, preparing me to face new and exciting challenges.<br>I'm excited about the idea of finding my first job, where I can apply what I've learned during this course and continue my education. In the near future, I want to focus specifically on backend programming, with a focus on languages like Python and development environments like NodeJS for JavaScript."
+  },
+  "experience": {
+    "Experience1": {
+      "jobTitle": "Cybersecurity and Ethical Hacking Course",
+      "jobPlace": "Adecco Foundation",
+      "jobDate": "October 2023 - Present",
+      "jobDescription": "Immersed in a course focused on digital protection:<br> Identification and management of digital threats, safeguarding online information, and preventing identity theft.<br> Advanced use of anonymity tools and security protocols in networks. <br>Mastery of Kali Linux, comprehensive vulnerability analysis, and user/password management. <br>Continuous training in Python programming skills, exploring offensive and defensive strategies in cybersecurity."
+    },
+    "Experience2": {
+      "jobTitle": "Internship at Company",
+      "jobPlace": "Onets SL",
+      "jobDate": "October 2023 - December 2023",
+      "jobDescription": "After completing the Professional Certification, I'm participating in an internship program, where I am actively applying and improving my acquired knowledge in a real environment.<br>At Onets, I'm collaborating and using my competence in various programming languages and tools such as HTML5, CSS3 (including Bootstrap 5 and Tailwind 3), JavaScript ES6 (including Node.js and React), MySQL 8, and others.<br>This practical experience not only enhances my technical skills but also provides valuable insights into industry practices and team dynamics.<br>These internships are essential to reinforce my knowledge and progress towards my professional goals."
+    },
+    "Experience3": {
+      "jobTitle": "Professional Certification in Computer Systems Programming",
+      "jobPlace": "",
+      "jobDate": "April 2023 - October 2023",
+      "jobDescription": "Participating in a Professional Certification focused on Full-Stack development covering a variety of languages, libraries, frameworks, and other development tools such as HTML 5; CSS 3, including Bootstrap 5 and Tailwind 3; JavaScript 6, including Node.js and React; MySQL 8, and Python among others.<br> Daily application of these skills in personal and academic projects, enriching my technical competence and acquiring valuable skills for my future professional and personal aspirations."
+    },
+    "Experience4": {
+      "jobTitle": "Content Analyst, Data Entry and User Accounts Support",
+      "jobPlace": "Accenture",
+      "jobDate": "Mar 2020 - Feb 2023",
+      "jobLocation": "Lisbon, Portugal",
+      "jobDescription": "In this role, I reviewed user-generated content and took measures to ensure a safe and enjoyable experience. Assisted users in recovering their accounts, providing empathetic support and ensuring the security of their data through meticulous identity verification processes."
+    },
+    "Experience5": {
+      "jobTitle": "Kitchen Assistant",
+      "jobPlace": "The Stuyck Co. Madrid",
+      "jobDate": "Sep 2018 - Oct 2019",
+      "jobLocation": "Madrid, Community of Madrid, Spain",
+      "jobDescription": "Carefully prepared ingredients and cooked delicious dishes, managed inventory, and maintained a pristine kitchen, ensuring top-quality service."
+    },
+    "Experience6": {
+      "jobTitle": "Kitchen Assistant",
+      "jobPlace": "Restaurante Rochacho",
+      "jobDate": "Dec 2017 - Sep 2018",
+      "jobLocation": "Madrid, Community of Madrid, Spain",
+      "jobDescription": "Developed culinary skills, carefully preparing dishes and providing exceptional service to ensure customer satisfaction."
+    },
+    "Experience7": {
+      "jobTitle": "Kitchen Assistant",
+      "jobPlace": "THE COWSHED GROUP",
+      "jobDate": "Jan 2017 - Aug 2017",
+      "jobLocation": "Bristol, United Kingdom",
+      "jobDescription": "Honed culinary skills, preparing ingredients and dishes that left a lasting impression on diners. Provided personalized service and maintained a clean and welcoming dining space."
+    },
+    "Experience8": {
+      "jobTitle": "Retail Specialist",
+      "jobPlace": "Greengrocery store",
+      "jobDate": "Aug 2012 - Dec 2016",
+      "jobLocation": "Madrid, Community of Madrid, Spain",
+      "jobDescription": "Built meaningful connections with customers, providing personalized assistance, and ensuring an enjoyable and efficient shopping experience."
+    },
+    "Experience9": {
+      "jobTitle": "Taxi driver",
+      "jobPlace": "Taxi",
+      "jobDate": "Jan 2008 - Jun 2012",
+      "jobLocation": "Madrid, Community of Madrid, Spain",
+      "jobDescription": "Provided friendly and reliable transportation services, ensuring passengers' safety and comfort during their journeys across the vibrant city of Madrid."
+    }
+  }
 }
