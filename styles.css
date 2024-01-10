@@ -100,10 +100,10 @@ a:hover {
 }
 
 .logo {
-  /* top: 1px; */
+  top: 2px;
   left: 5px;
-  width: 87px;
-  height: 87px;
+  width: 80px;
+  height: 80px;
 }
 
 /* Hamburguer menu */
@@ -122,8 +122,8 @@ a:hover {
   left: 5px;
   margin: 0px;
   position: fixed;
-  width: 87px;
-  height: 87px;
+  width: 80px;
+  height: 80px;
 }
 
 .hamburger-menu {
@@ -277,10 +277,12 @@ a:hover {
 
 #hero-name {
   color: var(--text-main);
+  margin: 0 5vw;
 }
 
 #hero-role, #hello {
   color: var(--text-sec);
+  margin: 0 5vw;
 }
 
 #hero-role {
@@ -292,6 +294,42 @@ a:hover {
   z-index: 99;
   inset-inline-end: 100px;
   inset-block-end: 40px;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100vw;
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+  margin: 10vw;
+  padding: 0;
+  text-align: center;
+  width: 100vw;
+}
+
+#experience {
+  display: flex;
+  justify-content: center;
+  margin: 10vw;
+  padding: 0;
+  text-align: center;
+  width: 100vw;
+}
+
+#about-parag {
+  color: var(--text-sec);
+}
+
+.fa-brands {
+  margin: 8px 5px;
 }
 
 /*footer*/
