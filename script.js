@@ -25,12 +25,26 @@ const langElementSmall = document.getElementById("lang-select-small");
 /** Comprobando que el valor escogido esta bien seleccionado */
 langElementDesk.addEventListener("change", () => {
   const selectValue = langElementDesk.value;
-  console.log(selectValue);
+  changeLanguage(selectValue);
 });
 langElementSmall.addEventListener("change", () => {
   const selectValue = langElementSmall.value;
-  console.log(selectValue)
+  changeLanguage(selectValue);
 });
+
+const textsChange = document.querySelectorAll("[data-section]")
+
+const changeLanguage = async language => {
+  const requestJson = await fetch(`./languages/${language}.json`)
+  const texts = await requestJson.json()
+  
+  for (const textChange of textsChange) {
+    const section = textChange.dataset.section;
+    const value = textChange.dataset.value;
+    textChange.innerHTML = texts[section][value]
+  } 
+};
+
 
 
 /** Función para cambiar el menu del navbar */
@@ -44,12 +58,12 @@ function toggleMenu() {
 
 /** Función para cambiar el icono cuando cambia el modo */
 function toggleIconTheme() {
-  if(page.classList.contains("dark")) {
+  if (page.classList.contains("dark")) {
     toggleIcon.src = "./assets/light.png";
     toggleIcon.alt = "Light mode";
   } else {
     toggleIcon.src = "./assets/night-mode.png";
-    toggleIcon.alt = "Light mode";
+    toggleIcon.alt = "Dark mode";
   }
 }
 

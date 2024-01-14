@@ -17,6 +17,7 @@ https://bootcamp.uxdesign.cc/create-a-dark-mode-for-your-website-d62e73a4275d */
   --text-bg: #507dbc;
   --shadow: #a1c6ea;
   --text-sec: #bbd1ea;
+  --text-ter: #a6daea;
   --text-main: #dae3e5;
 }
 
@@ -25,6 +26,7 @@ https://bootcamp.uxdesign.cc/create-a-dark-mode-for-your-website-d62e73a4275d */
   --text-bg: #bbd1ea;
   --shadow: #a1c6ea;
   --text-sec: #507dbc;
+  --text-ter: #3e6185;
   --text-main: #16263b;
 }
 
@@ -92,6 +94,8 @@ a:hover {
   background-color: rgb(244, 205, 155);
   position: sticky;
   top: 0;
+  width: 100%;
+  z-index: 90;
 }
 
 /* Logo */
@@ -108,7 +112,7 @@ a:hover {
 
 /* Hamburguer menu */
 #hamburger-nav {
-  z-index: 999;
+  z-index: 90;
   display: none;
   position: sticky !important;
   margin: 0;
@@ -300,8 +304,9 @@ a:hover {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 0;
-  padding: 0;
+  align-items: center;
+  /* margin: 0;
+  padding: 0; */
   text-align: center;
   width: 100vw;
 }
@@ -309,10 +314,14 @@ a:hover {
 #about {
   display: flex;
   justify-content: center;
-  margin: 10vw;
+  margin: 5vh 10vw;
   padding: 0;
   text-align: center;
   width: 100vw;
+}
+
+#div-about {
+  width: 50vw;
 }
 
 #experience {
@@ -325,11 +334,23 @@ a:hover {
 }
 
 #about-parag {
-  color: var(--text-sec);
+  color: var(--text-main);
 }
 
-.fa-brands {
-  margin: 8px 5px;
+.social-media i {
+  margin: 15px 5px;
+}
+
+i {
+  color: var(--text-ter);
+  /* transform: color(1.25);
+  transition: all 1s ease; */
+}
+
+i:hover {
+  color: var(--text-main);
+  transform: scale(1.25);
+  transition: all 1s ease;
 }
 
 /*footer*/
