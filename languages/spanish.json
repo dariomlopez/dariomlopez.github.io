@@ -9,71 +9,33 @@
   "profile": {
     "hello": "Hola! Soy",
     "rol": "Desarrollador Full-Stack",
-    "description": "En abril de 2023, decidí tomar un receso profesional para embarcarme en un Certificado de Profesionalidad. <br>Esta experiencia me proporcionó herramientas tanto a nivel profesional como personal, preparándome para afrontar nuevos y emocionantes desafíos.<br>Estoy entusiasmado por la idea de encontrar mi primer trabajo, donde pueda aplicar lo aprendido durante este curso y continuar mi formación. En fúturo próximo quiero centrar especialmente mi interes en la programación backend, con un enfoque en lenguajes como Python y entornos de desarrollo como NodeJS para JavaScript."
+    "description": "A principios de 2023 decidí cambiar mi rumbo tanto vital como profesional y me embarque en un Certificado de profesionalidad enfocado en herramientas y lenguajes full-stack. <br> Durante este último año demostré mi capacidad para enfrentar desafíos y adquirir nuevos conocimientos. <br> Ahora busco mi primer desafio profesional para poner en práctica lo aprendido en un entorno real."
   },
 
-  "experience": {
+  
     "Experience1": {
-      "jobTitle": "Curso en Ciberseguridad y hacking ético",
-      "jobPlace": "Fundación Adecco",
+      "jobTitle": "Curso en Ciberseguridad y hacking ético en Fundación Adecco",
       "jobDate": "Octubre 2023 - Presente",
-      "jobDescription": "Inmerso en un curso centrado en protección digital:<br> Identificación y gestión de amenazas digitales, salvaguarda de información en línea y prevención de suplantación de identidad.<br> Uso avanzado de herramientas de anonimato y protocolos de seguridad en redes. <br>Dominio de Kali Linux, análisis exhaustivo de vulnerabilidades y gestión de usuarios/contraseñas. <br>Continua formación en habilidades de programación en Python, explorando estrategias ofensivas y defensivas en ciberseguridad."
+      "jobDescription": "Inmerso en un curso centrado en protección digital:<br> Identificación y gestión de amenazas digitales, salvaguarda de información en línea y prevención de suplantación de identidad.<br> Uso avanzado de herramientas de anonimato y protocolos de seguridad en redes. <br>Dominio de Kali Linux, análisis exhaustivo de vulnerabilidades y gestión de usuarios/contraseñas. <br> Continua formación en habilidades de programación en Python, explorando estrategias ofensivas y defensivas en ciberseguridad."
     },
 
     "Experience2": {
-      "jobTitle": "Prácticas en empresa",
-      "jobPlace": "Onets SL",
+      "jobTitle": "Prácticas en empresa en Onets SL",
       "jobDate": "Octubre 2023 - diciembre 2023",
       "jobDescription": "Tras completar el Certificado de Profesionalidad, participo en un programa de prácticas, en el cual estoy aplicando y mejorando activamente mis conocimientos adquiridos en un entorno real.<br>En Onets, estoy colaborando y utilizando mi competencia en varios lenguajes y herramientas de programación como HTML5, CSS3 (incluyendo Bootstrap 5 y Tailwind 3), JavaScript ES6 (incluyendo Node.js y React), MySQL 8, y otros.<br>Esta experiencia práctica no solo mejora mis habilidades técnicas, sino que también proporciona valiosos conocimientos sobre las prácticas de la industria y la dinámica de trabajo en equipo.<br>Estas prácticas son esenciales para reforzar mis conocimientos y avanzar hacia mis objetivos profesionales."
     },
 
     "Experience3": {
       "jobTitle": "Certificado de profesionalidad en Programación de Sistemas Informáticos",
-      "jobPlace": "",
       "jobDate": "Abril 2023 - Octubre 2023",
       "jobDescription": "Participando en un Certificado de Profesionalidad centrado en el desarrollo Full-Stack que cubre una variedad de lenguajes, bibliotecas, frameworks y otras herramientas de desarrollo como HTML 5; CSS 3, incluyendo Bootstrap 5 y Tailwind 3; JavaScript 6, incluyendo Node.js y React; MySQL 8 y Python entre otros.<br> Aplicación diaria de estas habilidades en proyectos personales y académicos, enriqueciendo mi competencia técnica y adquiriendo habilidades valiosas para mi futuro profesional y aspiraciones personales."
     },
 
     "Experience4": {
-      "jobTitle": "Analista de Contenidos, Soporte de Entrada de Datos y Cuentas de Usuario",
-      "jobPlace": "Accenture",
+      "jobTitle": "Analista de Contenidos y soporte a usuarios en Accenture",
       "jobDate": "Mar 2020 - Feb 2023",
       "jobLocation": "Lisboa, Portugal",
       "jobDescription": "En este rol, revisaba el contenido generado por los usuarios y tomaba medidas para garantizar una experiencia segura y placentera. Asistía a los usuarios en la recuperación de sus cuentas, brindando un soporte empático y asegurando la seguridad de sus datos a través de meticulosos procesos de verificación de identidad."
-    },
-    "Experience5": {
-      "jobTitle": "Ayudante de Cocina",
-      "jobPlace": "The Stuyck Co. Madrid",
-      "jobDate": "Sep 2018 - Oct 2019",
-      "jobLocation": "Madrid, España",
-      "jobDescription": "Preparaba cuidadosamente ingredientes y cocinaba platos deliciosos, gestionaba inventario y mantenía una cocina impecable, garantizando un servicio de primera calidad."
-    },
-    "Experience6": {
-      "jobTitle": "Ayudante de Cocina",
-      "jobPlace": "Restaurante Rochacho",
-      "jobDate": "Dic 2017 - Sep 2018",
-      "jobDescription": "Desarrollaba habilidades culinarias, preparando platos cuidadosamente y brindando un servicio excepcional para asegurar la satisfacción de los clientes."
-    },
-    "Experience7": {
-      "jobTitle": "Ayudante de Cocina",
-      "jobPlace": "THE COWSHED GROUP",
-      "jobDate": "Ene 2017 - Ago 2017",
-      "jobLocation": "Bristol, Reino Unido",
-      "jobDescription": "Perfeccioné mis habilidades culinarias, preparando ingredientes y platos que dejaron una impresión duradera en los comensales. Ofrecí un servicio personalizado y mantuve un espacio de comedor limpio y acogedor."
-    },
-    "Experience8": {
-      "jobTitle": "Especialista en Ventas Minoristas",
-      "jobPlace": "Tienda de Verduras",
-      "jobDate": "Ago 2012 - Dic 2016",
-      "jobLocation": "Madrid, Comunidad de Madrid, España",
-      "jobDescription": "Establecí conexiones significativas con los clientes, brindando asistencia personalizada y asegurando una experiencia de compra agradable y eficiente."
-    },
-    "Experience9": {
-      "jobTitle": "Taxista",
-      "jobPlace": "Taxi",
-      "jobDate": "Ene 2008 - Jun 2012",
-      "jobLocation": "Madrid, Comunidad de Madrid, España",
-      "jobDescription": "Proporcioné servicios de transporte amigables y confiables, asegurando la seguridad y comodidad de los pasajeros durante sus viajes por la vibrante ciudad de Madrid."
     }
-  }
+  
 }

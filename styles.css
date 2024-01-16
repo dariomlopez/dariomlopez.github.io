@@ -94,7 +94,7 @@ a:hover {
   background-color: rgb(244, 205, 155);
   position: sticky;
   top: 0;
-  width: 100%;
+  width: 100vw;
   z-index: 90;
 }
 
@@ -118,7 +118,7 @@ a:hover {
   margin: 0;
   padding: 0;
   top: 0;
-  width: 100%;
+  width: 100vw;
   background-color: rgb(244, 205, 155);
 }
 
@@ -147,7 +147,7 @@ a:hover {
 }
 
 .hamburger-icon span {
-  width: 100%;
+  width: 100;
   height: 2px;
   background-color: black;
   transition: all 0.5 ease-in-out;
@@ -314,28 +314,31 @@ a:hover {
 #about {
   display: flex;
   justify-content: center;
-  margin: 5vh 10vw;
+  
   padding: 0;
   text-align: center;
-  width: 100vw;
+  /* width: 100vw; */
 }
 
 #div-about {
-  width: 50vw;
+  width: 60vw;
 }
 
 #experience {
   display: flex;
   justify-content: center;
-  margin: 10vw;
+  flex-direction: column;
+  /* margin: 5vw 0; */
   padding: 0;
   text-align: center;
-  width: 100vw;
+  /* width: 100vw; */
 }
 
 #about-parag {
   color: var(--text-main);
 }
+
+
 
 .social-media i {
   margin: 15px 5px;
@@ -351,6 +354,39 @@ i:hover {
   color: var(--text-main);
   transform: scale(1.25);
   transition: all 1s ease;
+}
+
+#div-title {
+  display: flex;
+    
+  justify-content: center; 
+  align-items: center;
+  /* background-color: #bbdefb; */
+  height: 100%;
+  /* width: 100%; */
+  padding: 15px;
+  gap: 5px;
+}
+
+#div-title > p {
+  background: #ffecb3;
+  border-radius: 5px;
+  padding: 3px;
+  text-align: left;
+  justify-content: center;
+}
+
+#div-exp {
+  display: flex;
+  justify-content: center;
+  /* margin: 10vw; */
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+}
+
+#exp-parag {
+  width: 60vw;
 }
 
 /*footer*/

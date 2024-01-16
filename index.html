@@ -14,148 +14,143 @@ https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-using-custom
 
 <!DOCTYPE html>
 <html lang="en" lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/740d3af595.js" crossorigin="anonymous">
-  </script>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="mediaqueries.css">
-  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.1/css/all.css"> -->
-  
-  <title>Dario Maroto Portfolio</title>
-</head>
-<body class="page dark">
-  <nav id="desktop-nav">
-    <img class="logo" src="./assets/Logo-full-name.png" alt="logo">
-    <div>
-        <ul class="nav-links">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/740d3af595.js" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.1/css/all.css"> -->
+    
+    <title>Dario Maroto Portfolio</title>
+  </head>
+  <body class="page dark">
+    <nav id="desktop-nav">
+      <img class="logo" src="./assets/Logo-full-name.png" alt="logo">
+      <div>
+          <ul class="nav-links">
+            <li>
+              <a href="#about" data-section="navbar" data-value="about">Sobre mí</a>
+            </li>
+            <li>
+              <a href="#experience" data-section="navbar" data-value="experience">Experiencia</a>
+            </li>
+            <li>
+              <a href="#projects" data-section="navbar" data-value="projects" data-section="navbar" data-value="projects">Proyectos</a>
+            </li>
+            <li>
+              <a href="#contact" data-section="navbar" data-value="contact">Contacto</a>
+            </li>
+            <li>
+              <a data-section="navbar" data-value="lang">Idioma</a>
+              <select id="lang-select">
+                <option id="spanish" value="spanish">Español
+                </option>
+                <option id="english" value="english">English
+                </option>
+              </select>
+            </li>
+          </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <img class="logo" src="./assets/Logo-full-name.png" alt="logo">
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
           <li>
-            <a href="#about" data-section="navbar" data-value="about">Sobre mí</a>
+            <a href="#about" onclick="toggleMenu()" data-section="navbar" data-value="about">Sobre mí</a>
           </li>
           <li>
-            <a href="#experience" data-section="navbar" data-value="experience">Experiencia</a>
+            <a href="#experience" onclick="toggleMenu()" data-section="navbar" data-value="experience">Experiencia</a>
           </li>
           <li>
-            <a href="#projects" data-section="navbar" data-value="projects" data-section="navbar" data-value="projects">Proyectos</a>
+            <a href="#projects" onclick="toggleMenu()" data-section="navbar" data-value="projects">Proyectos</a>
           </li>
           <li>
-            <a href="#contact" data-section="navbar" data-value="contact">Contacto</a>
+            <a href="#contact" onclick="toggleMenu()" data-section="navbar" data-value="contact">Contacto</a>
           </li>
           <li>
             <a data-section="navbar" data-value="lang">Idioma</a>
-            <select id="lang-select">
+            <select id="lang-select-small">
               <option id="spanish" value="spanish">Español
               </option>
               <option id="english" value="english">English
               </option>
             </select>
           </li>
-        </ul>
-    </div>
-  </nav>
-  <nav id="hamburger-nav">
-    <img class="logo" src="./assets/Logo-full-name.png" alt="logo">
-    <div class="hamburger-menu">
-      <div class="hamburger-icon" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="menu-links">
-        <li>
-          <a href="#about" onclick="toggleMenu()" data-section="navbar" data-value="about">Sobre mí</a>
-        </li>
-        <li>
-          <a href="#experience" onclick="toggleMenu()" data-section="navbar" data-value="experience">Experiencia</a>
-        </li>
-        <li>
-          <a href="#projects" onclick="toggleMenu()" data-section="navbar" data-value="projects">Proyectos</a>
-        </li>
-        <li>
-          <a href="#contact" onclick="toggleMenu()" data-section="navbar" data-value="contact">Contacto</a>
-        </li>
-        <li>
-          <a data-section="navbar" data-value="lang">Idioma</a>
-          <select id="lang-select-small">
-            <option id="spanish" value="spanish">Español
-            </option>
-            <option id="english" value="english">English
-            </option>
-          </select>
-        </li>
-      </div>
-    </div>
-  </nav>
-  <header>
-    <div id="toggle">
-      <input type="checkbox" id="theme" class="toggle-input" checked/>
-      <label for="theme" id="toggle-label" class="toggle-label">
-        <img id="light-mode-icon" src="./assets/light.png" alt="Light mode" class="toggle-icon"/>
-      </label>
-    </div>
-    <div id="profile">
-      <div class="hero-div-name">
-        <h3 id="hello" 
-        data-section="profile" data-value="hello">Hola! Soy</h3>
-        <h1 id="hero-name">Darío Maroto López</h1>
-        <h3 id="hero-role"
-        data-section="profile" data-value="rol">Desarrollador Full-Stack</h3>
-      </div>
-    </div>
-  </header>
-  <main id="main">
-    <section id="about">
-      <div id="div-about">
-      <p id="about-parag" data-section="profile" data-value="description">
-        A principios de 2023 decidí cambiar mi rumbo tanto vital como profesional y me embarque en un Certificado de profesionalidad enfocado en herramientas y lenguajes full-stack. <br> 
-        Durante este último año me he demostrado a mi mismo que soy capaz de tomar retos diferentes y adquirir conocimientos nuevos.
-      </p>
-
-      <div class="social-media">
-          <a href="https://wa.me/+34679725971" target="_blank">
-            <i class="fa-brands fa-whatsapp fa-2x" aria-hidden="true"></i>
-          </a>
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dmarotolopez@gmail.com" target="_blank">
-            <i class="fa-solid fa-envelope fa-2x"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/dario-maroto/" target="_blank">
-            <i class="fa-brands fa-linkedin fa-2x"></i>
-          </a>
-          <a href="https://github.com/dariomlopez" target="_blank">
-            <i class="fa-brands fa-github fa-2x"></i>
-          </a>
         </div>
       </div>
-    </section>
-    <section id="experience">
-      <div id="div-exp">
-        <p id="exp-parag">
-          Entusiasta del analisis y la programación, siempre en busca de nuevos retos para crecer personal y profesionalmente en el apasionante mundo IT. Con una actitud positiva y una mente abierta, estoy preparado para afrontar cualquier obstáculo y aprovechar al máximo las oportunidades que se me presenten.
+    </nav>
+    <header>
+      <div id="toggle">
+        <input type="checkbox" id="theme" class="toggle-input" checked/>
+        <label for="theme" id="toggle-label" class="toggle-label">
+          <img id="light-mode-icon" src="./assets/light.png" alt="Light mode" class="toggle-icon"/>
+        </label>
+      </div>
+      <div id="profile">
+        <div class="hero-div-name">
+          <h3 id="hello" 
+          data-section="profile" data-value="hello">Hola! Soy</h3>
+          <h1 id="hero-name">Darío Maroto López</h1>
+          <h3 id="hero-role"
+          data-section="profile" data-value="rol">Desarrollador Full-Stack</h3>
+        </div>
+      </div>
+    </header>
+    <main id="main">
+      <section id="about">
+        <div id="div-about">
+        <p id="about-parag" data-section="profile" data-value="description">
+          A principios de 2023 decidí cambiar mi rumbo tanto vital como profesional y me embarque en un Certificado de profesionalidad enfocado en herramientas y lenguajes full-stack. <br> 
+          Durante este último año demostré mi capacidad para enfrentar desafíos y adquirir nuevos conocimientos. <br>
+          Ahora busco mi primer desafio profesional para poner en práctica lo aprendido en un entorno real.
         </p>
-    </section>
-    <section id="projects">
 
-    </section>
-    <section id="contact">
+        <div class="social-media">
+            <a href="https://wa.me/+34679725971" target="_blank">
+              <i class="fa-brands fa-whatsapp fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dmarotolopez@gmail.com" target="_blank">
+              <i class="fa-solid fa-envelope fa-2x"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/dario-maroto/" target="_blank">
+              <i class="fa-brands fa-linkedin fa-2x"></i>
+            </a>
+            <a href="https://github.com/dariomlopez" target="_blank">
+              <i class="fa-brands fa-github fa-2x"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="experience">
+        <div>
+          <h2>Experiencia</h2>
+        </div>
+        <div id="div-title">
+          <p 
+          data-section="Experience1" data-value="jobTitle">Curso en Ciberseguridad y hacking ético en Fundación Adecco
+        </p>         
+        </div>
+        <div id="div-exp">
+          <p id="exp-parag">
+          Inmerso en un curso centrado en protección digital:<br> Identificación y gestión de amenazas digitales, salvaguarda de información en línea y prevención de suplantación de identidad.<br> Uso avanzado de herramientas de anonimato y protocolos de seguridad en redes. <br>Dominio de Kali Linux, análisis exhaustivo de vulnerabilidades y gestión de usuarios/contraseñas. <br> Continua formación en habilidades de programación en Python, explorando estrategias ofensivas y defensivas en ciberseguridad.
+          </p>
+        </div>
+      </section>
+      <section id="projects">
 
-    </section>
-  </main>
-  <!-- <div id="toggle">
-    <input type="checkbox" id="theme" class="toggle-input">
-    <label id="theme-button">
-      <img id="night-mode-icon" src="./assets/night-mode.png" alt=""/>
-      <img id="light-mode-icon" src="./assets/light.png" alt=""/>
-    </label>
-  </div> -->
-  <!-- <div id="language-switch">
-    <select id="">
-      <option value="english">
-        <img id="flags" src="./assets/flags/gb.svg" alt="English">English</option>
-      <option value="spanish">
-        <img id="flags" src="./assets/flags/es.svg" alt="Español">Español</option>
-    </select>
-  </div> -->
-  <script src="script.js"></script>
-</body>
+      </section>
+      <section id="contact">
+
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
