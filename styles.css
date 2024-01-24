@@ -279,18 +279,18 @@ a:hover {
   padding: 0 15px;
 }
 
-#hero-name {
+#hero-name, #exp-title {
   color: var(--text-main);
   margin: 0 5vw;
 }
 
 #hero-role, #hello {
   color: var(--text-sec);
-  margin: 0 5vw;
+  margin: 5px 5vw;
 }
 
 #hero-role {
-  margin-top: 10px;
+  margin: 10px auto;
 }
 
 #theme-button {
@@ -314,7 +314,8 @@ a:hover {
 #about {
   display: flex;
   justify-content: center;
-  
+  flex-direction: column;
+  align-items: center;
   padding: 0;
   text-align: center;
   /* width: 100vw; */
@@ -328,7 +329,7 @@ a:hover {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /* margin: 5vw 0; */
+  margin: 15px 0 25px 0;
   padding: 0;
   text-align: center;
   /* width: 100vw; */

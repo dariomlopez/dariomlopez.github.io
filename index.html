@@ -39,9 +39,9 @@ https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-using-custom
             <li>
               <a href="#projects" data-section="navbar" data-value="projects" data-section="navbar" data-value="projects">Proyectos</a>
             </li>
-            <li>
+            <!-- <li>
               <a href="#contact" data-section="navbar" data-value="contact">Contacto</a>
-            </li>
+            </li> -->
             <li>
               <a data-section="navbar" data-value="lang">Idioma</a>
               <select id="lang-select">
@@ -64,7 +64,7 @@ https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-using-custom
         </div>
         <div class="menu-links">
           <li>
-            <a href="#about" onclick="toggleMenu()" data-section="navbar" data-value="about">Sobre mí</a>
+            <a href="#profile" onclick="toggleMenu()" data-section="navbar" data-value="about">Sobre mí</a>
           </li>
           <li>
             <a href="#experience" onclick="toggleMenu()" data-section="navbar" data-value="experience">Experiencia</a>
@@ -72,9 +72,9 @@ https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-using-custom
           <li>
             <a href="#projects" onclick="toggleMenu()" data-section="navbar" data-value="projects">Proyectos</a>
           </li>
-          <li>
+          <!-- <li>
             <a href="#contact" onclick="toggleMenu()" data-section="navbar" data-value="contact">Contacto</a>
-          </li>
+          </li> -->
           <li>
             <a data-section="navbar" data-value="lang">Idioma</a>
             <select id="lang-select-small">
@@ -94,26 +94,27 @@ https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-using-custom
           <img id="light-mode-icon" src="./assets/light.png" alt="Light mode" class="toggle-icon"/>
         </label>
       </div>
-      <div id="profile">
-        <div class="hero-div-name">
-          <h3 id="hello" 
-          data-section="profile" data-value="hello">Hola! Soy</h3>
-          <h1 id="hero-name">Darío Maroto López</h1>
-          <h3 id="hero-role"
-          data-section="profile" data-value="rol">Desarrollador Full-Stack</h3>
-        </div>
-      </div>
     </header>
     <main id="main">
       <section id="about">
+        <div id="profile">
+          <div class="hero-div-name">
+            <h3 id="hello" 
+            data-section="profile" data-value="hello">Hola! Soy</h3>
+            <h1 id="hero-name">Darío Maroto López</h1>
+            <h3 id="hero-role"
+            data-section="profile" data-value="rol">
+            🖥️ Desarrollador Full-Stack 🌱 Comenzando en la ciberseguridad</h3>
+          </div>
+        </div>
         <div id="div-about">
         <p id="about-parag" data-section="profile" data-value="description">
           A principios de 2023 decidí cambiar mi rumbo tanto vital como profesional y me embarque en un Certificado de profesionalidad enfocado en herramientas y lenguajes full-stack. <br> 
           Durante este último año demostré mi capacidad para enfrentar desafíos y adquirir nuevos conocimientos. <br>
-          Ahora busco mi primer desafio profesional para poner en práctica lo aprendido en un entorno real.
+          Ahora, después de aprender fundamentos de programación web front end y lenguajes back end estoy inmerso en un curso de ciberseguridad.
         </p>
 
-        <div class="social-media">
+        <div id="contact" class="social-media">
             <a href="https://wa.me/+34679725971" target="_blank">
               <i class="fa-brands fa-whatsapp fa-2x" aria-hidden="true"></i>
             </a>
@@ -131,23 +132,52 @@ https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-using-custom
       </section>
       <section id="experience">
         <div>
-          <h2>Experiencia</h2>
+          <h2 id="exp-title"
+          data-section="experiencia"
+          data-value="experiencia">Experiencia</h2>
         </div>
         <div id="div-title">
           <p 
-          data-section="Experience1" data-value="jobTitle">Curso en Ciberseguridad y hacking ético en Fundación Adecco
+          data-section="Experience1" data-value="jobTitle">Curso en Ciberseguridad y hacking ético en Fundación Adecco <br>oct 2023 - presente
         </p>         
         </div>
         <div id="div-exp">
           <p id="exp-parag">
-          Inmerso en un curso centrado en protección digital:<br> Identificación y gestión de amenazas digitales, salvaguarda de información en línea y prevención de suplantación de identidad.<br> Uso avanzado de herramientas de anonimato y protocolos de seguridad en redes. <br>Dominio de Kali Linux, análisis exhaustivo de vulnerabilidades y gestión de usuarios/contraseñas. <br> Continua formación en habilidades de programación en Python, explorando estrategias ofensivas y defensivas en ciberseguridad.
+          🔐 Identificación y gestión de amenazas digitales, salvaguarda de información en línea y prevención de suplantación de identidad.<br>🛡️ Uso avanzado de herramientas de anonimato y protocolos de seguridad en redes. <br>🌟 Dominio de Kali Linux, análisis exhaustivo de vulnerabilidades y gestión de usuarios/contraseñas. <br>🐍 Continua formación en habilidades de programación en Python, explorando estrategias ofensivas y defensivas en ciberseguridad.
+          </p>
+        </div>
+        <div id="div-title">
+          <p 
+          data-section="Experience2" data-value="jobTitle">Prácticas de empresa en Onets SL <br> Octubre 2023 - diciembre 2023
+        </p>         
+        </div>
+        <div id="div-exp">
+          <p id="exp-parag">
+            🛠️ Colaboración en proyectos de empresa, aplicando los conocimientos y habilidades adquiridos en el Certificado de Profesionalidad con enfoque en lenguajes de programación, frameworks y librerías para el desarrollo de proyectos Full Stack.<br>🚀 Implementación de IA a través del procesamiento de imágenes.
+          </p>
+        </div>
+        <div id="div-title">
+          <p 
+          data-section="Experience3" data-value="jobTitle">Prácticas de empresa en Onets SL <br> Octubre 2023 - diciembre 2023
+        </p>         
+        </div>
+        <div id="div-exp">
+          <p id="exp-parag">
+            🛠️ Colaboración en proyectos de empresa, aplicando los conocimientos y habilidades adquiridos en el Certificado de Profesionalidad con enfoque en lenguajes de programación, frameworks y librerías para el desarrollo de proyectos Full Stack.<br>🚀 Implementación de IA a través del procesamiento de imágenes.
+          </p>
+        </div>
+        <div id="div-title">
+          <p 
+          data-section="Experience4" data-value="jobTitle">Prácticas de empresa en Onets SL <br> Octubre 2023 - diciembre 2023
+        </p>         
+        </div>
+        <div id="div-exp">
+          <p id="exp-parag">
+            🛠️ Colaboración en proyectos de empresa, aplicando los conocimientos y habilidades adquiridos en el Certificado de Profesionalidad con enfoque en lenguajes de programación, frameworks y librerías para el desarrollo de proyectos Full Stack.<br>🚀 Implementación de IA a través del procesamiento de imágenes.
           </p>
         </div>
       </section>
       <section id="projects">
-
-      </section>
-      <section id="contact">
 
       </section>
     </main>

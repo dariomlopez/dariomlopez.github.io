@@ -11,12 +11,14 @@
     "rol": "Full-Stack Developer",
     "description": "At the beginning of 2023 I decided to change my life and professional direction and embarked on a professional certificate focused on full-stack tools and languages. <br> During this last year I demonstrated my ability to face challenges and acquire new knowledge. <br> Now I am looking for my first professional challenge to put into practice what I have learned in a real environment."
   },
-  "experience": {
+
+  "experiencia": {
+    "experiencia" : "Experience"
+  },
+  
     "Experience1": {
-      "jobTitle": "Cybersecurity and Ethical Hacking Course",
-      "jobPlace": "Adecco Foundation",
-      "jobDate": "October 2023 - Present",
-      "jobDescription": "Immersed in a course focused on digital protection:<br> Identification and management of digital threats, safeguarding online information, and preventing identity theft.<br> Advanced use of anonymity tools and security protocols in networks. <br>Mastery of Kali Linux, comprehensive vulnerability analysis, and user/password management. <br>Continuous training in Python programming skills, exploring offensive and defensive strategies in cybersecurity."
+      "jobTitle": "Cybersecurity and Ethical Hacking Course in Adecco Foundation -- oct 2023 - Present",
+      "jobDescription": "🔍Identification and management of digital threats, encompassing both physical and logical security.<br>🛡️Safeguarding online information and preventing identity impersonation.<br>🌐 Advanced use of anonymity tools and network security protocols.<br>🌟 Proficiency in Kali Linux, comprehensive vulnerability analysis, and user/password management.<br>🐍 Continuously learning Python programming skills"
     },
     "Experience2": {
       "jobTitle": "Internship at Company",
@@ -72,5 +74,5 @@
       "jobLocation": "Madrid, Community of Madrid, Spain",
       "jobDescription": "Provided friendly and reliable transportation services, ensuring passengers' safety and comfort during their journeys across the vibrant city of Madrid."
     }
-  }
+  
 }

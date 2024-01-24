@@ -8,27 +8,27 @@
   },
   "profile": {
     "hello": "Hola! Soy",
-    "rol": "Desarrollador Full-Stack",
-    "description": "A principios de 2023 decidí cambiar mi rumbo tanto vital como profesional y me embarque en un Certificado de profesionalidad enfocado en herramientas y lenguajes full-stack. <br> Durante este último año demostré mi capacidad para enfrentar desafíos y adquirir nuevos conocimientos. <br> Ahora busco mi primer desafio profesional para poner en práctica lo aprendido en un entorno real."
+    "rol": "🖥️ Desarrollador Full-Stack 🌱 Comenzando en la ciberseguridad",
+    "description": "A principios de 2023 decidí cambiar mi rumbo tanto vital como profesional y me embarque en un Certificado de profesionalidad enfocado en herramientas y lenguajes full-stack. <br> Durante este último año demostré mi capacidad para enfrentar desafíos y adquirir nuevos conocimientos."
   },
 
-  
+  "experiencia": {
+    "experiencia" : "Experiencia"
+  },
+
     "Experience1": {
-      "jobTitle": "Curso en Ciberseguridad y hacking ético en Fundación Adecco",
-      "jobDate": "Octubre 2023 - Presente",
+      "jobTitle": "Curso en Ciberseguridad y hacking ético en Fundación Adecco -- oct 2023 - presente",
       "jobDescription": "Inmerso en un curso centrado en protección digital:<br> Identificación y gestión de amenazas digitales, salvaguarda de información en línea y prevención de suplantación de identidad.<br> Uso avanzado de herramientas de anonimato y protocolos de seguridad en redes. <br>Dominio de Kali Linux, análisis exhaustivo de vulnerabilidades y gestión de usuarios/contraseñas. <br> Continua formación en habilidades de programación en Python, explorando estrategias ofensivas y defensivas en ciberseguridad."
     },
 
     "Experience2": {
-      "jobTitle": "Prácticas en empresa en Onets SL",
-      "jobDate": "Octubre 2023 - diciembre 2023",
-      "jobDescription": "Tras completar el Certificado de Profesionalidad, participo en un programa de prácticas, en el cual estoy aplicando y mejorando activamente mis conocimientos adquiridos en un entorno real.<br>En Onets, estoy colaborando y utilizando mi competencia en varios lenguajes y herramientas de programación como HTML5, CSS3 (incluyendo Bootstrap 5 y Tailwind 3), JavaScript ES6 (incluyendo Node.js y React), MySQL 8, y otros.<br>Esta experiencia práctica no solo mejora mis habilidades técnicas, sino que también proporciona valiosos conocimientos sobre las prácticas de la industria y la dinámica de trabajo en equipo.<br>Estas prácticas son esenciales para reforzar mis conocimientos y avanzar hacia mis objetivos profesionales."
+      "jobTitle": "Prácticas de empresa en Onets SL <br> Octubre 2023 - diciembre 2023",
+      "jobDescription": "🛠️ Colaboración en proyectos de empresa, aplicando los conocimientos y habilidades adquiridos en el Certificado de Profesionalidad con enfoque en lenguajes de programación, frameworks y librerías para el desarrollo de proyectos Full Stack.<br>🚀 Implementación de IA a través del procesamiento de imágenes."
     },
 
     "Experience3": {
-      "jobTitle": "Certificado de profesionalidad en Programación de Sistemas Informáticos",
-      "jobDate": "Abril 2023 - Octubre 2023",
-      "jobDescription": "Participando en un Certificado de Profesionalidad centrado en el desarrollo Full-Stack que cubre una variedad de lenguajes, bibliotecas, frameworks y otras herramientas de desarrollo como HTML 5; CSS 3, incluyendo Bootstrap 5 y Tailwind 3; JavaScript 6, incluyendo Node.js y React; MySQL 8 y Python entre otros.<br> Aplicación diaria de estas habilidades en proyectos personales y académicos, enriqueciendo mi competencia técnica y adquiriendo habilidades valiosas para mi futuro profesional y aspiraciones personales."
+      "jobTitle": "Certificado de profesionalidad en Programación de Sistemas Informáticos<br> Abril 2023 - Octubre 2023",
+      "jobDescription": "Participando en un Certificado de Profesionalidad centrado en el desarrollo Full-Stack que cubre una variedad de lenguajes, bibliotecas, frameworks y otras herramientas de desarrollo como HTML 5, CSS 3 (incluyendo Bootstrap 5 y Tailwind 3), JavaScript (incluyendo Node.js y React), MySQL 8 y Python entre otros.<br> Aplicación diaria de estas habilidades en proyectos personales y académicos, enriqueciendo mi competencia técnica y adquiriendo habilidades valiosas para mi futuro profesional y aspiraciones personales."
     },
 
     "Experience4": {
