@@ -35,13 +35,8 @@ https://bootcamp.uxdesign.cc/create-a-dark-mode-for-your-website-d62e73a4275d */
 .page {
 position: relative;
 background-color: var(--main-bg);
-/* display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center; */
 min-height: 100vh;
 box-sizing: border-box;
-/* padding: 8px; */
 }
 
 body {
@@ -107,10 +102,10 @@ a:hover {
 
 .logo {
   top: 0px;
-  left: 10px;
+  left: 5px;
   width: 105px;
   height: 103px;
-  position: absolute;
+  position: fixed;
 }
 
 /* Hamburguer menu */
@@ -129,8 +124,8 @@ a:hover {
   left: 5px;
   margin: 0px;
   position: fixed;
-  width: 80px;
-  height: 80px;
+  width: 105px;
+  height: 103px;
 }
 
 .hamburger-menu {
@@ -171,7 +166,7 @@ a:hover {
   display: block;
   padding: 10px;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: black;
   text-decoration: none;
   transition: all 0.5 ease-in-out;
@@ -211,16 +206,18 @@ a:hover {
 
 /* Theme toggle */
 #toggle {
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   user-select: none;
   height: 50px;
+  top: -5px;
 }
 
 .toggle-input {
-  /* position: absolute; */
   user-select: none;
   display: none;
   opacity: 0;
@@ -230,8 +227,8 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 3px solid var(--shadow);
-  background-color: var(--text-bg);
+  border: 3px solid var(--text-bg);
+  background-color: var(--text-ter);
   border-radius: 50px;
   width: 50px;
   margin: 0;
@@ -240,7 +237,8 @@ a:hover {
 
 .toggle-label:hover {
   cursor: pointer;
-  background: linear-gradient(85deg, rgba(22,38,59,1) 30%, rgb(135, 164, 238) 66%);
+  transition: all 2s ease;
+  background: linear-gradient(85deg, var(--main-bg) 30%, var(--text-ter) 66%);
 }
 
 .toggle-label img {
