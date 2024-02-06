@@ -39,9 +39,6 @@ https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-using-custom
             <li>
               <a href="#projects" data-section="navbar" data-value="projects" data-section="navbar" data-value="projects">Proyectos</a>
             </li>
-            <!-- <li>
-              <a href="#contact" data-section="navbar" data-value="contact">Contacto</a>
-            </li> -->
             <li>
               <a data-section="navbar" data-value="lang">Idioma</a>
               <select id="lang-select">
@@ -50,6 +47,14 @@ https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-using-custom
                 <option id="english" value="english">English
                 </option>
               </select>
+            </li>
+            <li>
+              <div id="toggle">
+                <input type="checkbox" id="theme" class="toggle-input" checked/>
+                <label for="theme" id="toggle-label" class="toggle-label">
+                  <img id="light-mode-icon" src="./assets/light.png" alt="Light mode" class="toggle-icon"/>
+                </label>
+              </div>
             </li>
           </ul>
       </div>
@@ -72,9 +77,6 @@ https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-using-custom
           <li>
             <a href="#projects" onclick="toggleMenu()" data-section="navbar" data-value="projects">Proyectos</a>
           </li>
-          <!-- <li>
-            <a href="#contact" onclick="toggleMenu()" data-section="navbar" data-value="contact">Contacto</a>
-          </li> -->
           <li>
             <a data-section="navbar" data-value="lang">Idioma</a>
             <select id="lang-select-small">
@@ -84,17 +86,23 @@ https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-using-custom
               </option>
             </select>
           </li>
+          <div id="toggle">
+            <input type="checkbox" id="theme" class="toggle-input" checked/>
+            <label for="theme" id="toggle-label" class="toggle-label">
+              <img id="light-mode-icon" src="./assets/light.png" alt="Light mode" class="toggle-icon"/>
+            </label>
+          </div>
         </div>
       </div>
     </nav>
-    <header>
+    <!-- <header>
       <div id="toggle">
         <input type="checkbox" id="theme" class="toggle-input" checked/>
         <label for="theme" id="toggle-label" class="toggle-label">
           <img id="light-mode-icon" src="./assets/light.png" alt="Light mode" class="toggle-icon"/>
         </label>
       </div>
-    </header>
+    </header> -->
     <main id="main">
       <section id="about">
         <div id="profile">
@@ -158,7 +166,8 @@ https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-using-custom
         </div>
         <div id="div-title">
           <p 
-          data-section="Experience3" data-value="jobTitle">Prácticas de empresa en Onets SL <br> Octubre 2023 - diciembre 2023
+          id="exp-parag2"
+          data-section="Experience3" data-value="jobTitle">Certificado de profesionalidad IFCT0609 <br> Programación de sistemas informáticos - 590 horas<br> abril 2023 - diciembre 2023
         </p>         
         </div>
         <div id="div-exp">
