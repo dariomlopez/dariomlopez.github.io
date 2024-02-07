@@ -32,10 +32,8 @@
     },
 
     "Experience4": {
-      "jobTitle": "Analista de Contenidos y soporte a usuarios en Accenture",
-      "jobDate": "Mar 2020 - Feb 2023",
-      "jobLocation": "Lisboa, Portugal",
-      "jobDescription": "En este rol, revisaba el contenido generado por los usuarios y tomaba medidas para garantizar una experiencia segura y placentera. Asistía a los usuarios en la recuperación de sus cuentas, brindando un soporte empático y asegurando la seguridad de sus datos a través de meticulosos procesos de verificación de identidad."
+      "jobTitle": "Analista de Contenidos y soporte a usuarios en Accenture <br> Mar 2020 - Feb 2023 <br>Lisboa, Portugal",
+      "jobDescription": "Reviso contenido generado por los usuarios, tomando medidas para garantizar una experiencia segura y placentera para los mismos. <br>Asistía a los usuarios en la recuperación de sus cuentas, brindando un soporte empático y asegurando la seguridad de sus datos a través de meticulosos procesos de verificación de identidad."
     }
   
 }
