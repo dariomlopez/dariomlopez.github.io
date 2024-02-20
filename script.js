@@ -11,6 +11,7 @@
 // https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-using-custom-properties
 
 /** Elementos del DOM para cambio de tema*/
+
 const page = document.querySelector(".page");
 const toggle = document.querySelector(".toggle-input");
 const toggleIcon = page.querySelector(".toggle-icon");
@@ -45,18 +46,17 @@ const changeLanguage = async language => {
   } 
 };
 
-
-
 /** Función para cambiar el menu del navbar */
+
 function toggleMenu() {
   const menu = document.querySelector(".menu-links");
   const icon = document.querySelector(".hamburger-icon");
   menu.classList.toggle("open");
   icon.classList.toggle("open");
 }
-/**------------------------------------ */
 
 /** Función para cambiar el icono cuando cambia el modo */
+
 function toggleIconTheme() {
   if (page.classList.contains("dark")) {
     toggleIcon.src = "./assets/light.png";
@@ -68,6 +68,7 @@ function toggleIconTheme() {
 }
 
 // Verifica si hay un estado previamente guardado en el almacenamiento local
+
 function checkedState() {
   if (!(localStorage.checked === undefined)) {
     // Establece el estado del checkbox al valor guardado en el almacenamiento local
@@ -78,6 +79,7 @@ function checkedState() {
 }
 
 /** Cambia la clase del body añadiendo o eliminando la clase */
+
 function toggleTheme() {
   if(toggle.checked) {
     /** Si el checkbox está marcado aplica el tema oscuro */

@@ -32,10 +32,8 @@ https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-using-custom
     <script src="https://kit.fontawesome.com/740d3af595.js" crossorigin="anonymous">
     </script>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="mediaqueries.css">
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.1/css/all.css"> -->
-    
-    <title>Dario Maroto Portfolio</title>
+    <link rel="stylesheet" href="mediaqueries.css">    
+    <title>Dario Maroto</title>
   </head>
   <body class="page dark">
     <nav id="desktop-nav">
@@ -47,6 +45,9 @@ https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-using-custom
             </li>
             <li>
               <a href="#experience" data-section="navbar" data-value="experience">Experiencia</a>
+            </li>
+            <li>
+              <a href="#education" data-section="navbar" data-value="experience">Formación</a>
             </li>
             <li>
               <a href="#projects" data-section="navbar" data-value="projects" data-section="navbar" data-value="projects">Proyectos</a>
@@ -87,6 +88,9 @@ https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-using-custom
             <a href="#experience" onclick="toggleMenu()" data-section="navbar" data-value="experience">Experiencia</a>
           </li>
           <li>
+            <a href="#education" onclick="toggleMenu()" data-section="navbar" data-value="education">Formación</a>
+          </li>
+          <li>
             <a href="#projects" onclick="toggleMenu()" data-section="navbar" data-value="projects">Proyectos</a>
           </li>
           <li>
@@ -108,6 +112,10 @@ https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-using-custom
       </div>
     </nav>
     <main id="main">
+<!--      
+          ABOUT
+
+-->
       <section id="about">
         <div id="profile">
           <div class="hero-div-name">
@@ -120,12 +128,16 @@ https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-using-custom
           </div>
         </div>
         <div id="div-about">
-        <p id="about-parag" data-section="profile" data-value="description">
+        <p id="about-parag" 
+        data-section="profile" data-value="description">
           A principios de 2023 decidí cambiar mi rumbo tanto vital como profesional y me embarque en un Certificado de profesionalidad enfocado en herramientas y lenguajes full-stack. <br> 
           Durante este último año demostré mi capacidad para enfrentar desafíos y adquirir nuevos conocimientos. <br>
-          Ahora, después de aprender fundamentos de programación web front end y lenguajes back end estoy inmerso en un curso de ciberseguridad.
+          Ahora, después de aprender fundamentos de programación front end y lenguajes back end estoy inmerso en un curso de ciberseguridad.
         </p>
+<!--      
+          CONTACTO
 
+-->
         <div id="contact" class="social-media">
             <a href="https://wa.me/+34679725971" target="_blank">
               <i class="fa-brands fa-whatsapp fa-2x" aria-hidden="true"></i>
@@ -142,61 +154,75 @@ https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-using-custom
           </div>
         </div>
       </section>
+      <!--      
+          EXPERIENCIA
+
+-->
       <section id="experience">
         <div>
           <h2 id="exp-title"
-          data-section="experiencia"
-          data-value="experiencia">Experiencia</h2>
+          data-section="experience"
+          data-value="experience">Experiencia</h2>
         </div>
         <div id="div-title">
           <p 
-          data-section="Experience1"
-          data-value="jobTitle">
-          Curso Ciberseguridad y hacking ético en Fundación Adecco <br>oct 2023 - presente
+          data-section="Experience1" data-value="jobTitle">Desarrollador Full Stack en Onets SL <br> Octubre 2023 - diciembre 2023
         </p>         
         </div>
         <div id="div-exp">
           <p id="exp-parag"
-          data-section="Experience1"
-          data-value="jobDescription">
-          🔐 Identificación y gestión de amenazas digitales, salvaguarda de información en línea y prevención de suplantación de identidad.<br>🛡️ Uso avanzado de herramientas de anonimato y protocolos de seguridad en redes. <br>🌟 Dominio de <b>Kali Linux</b>, análisis exhaustivo de vulnerabilidades y gestión de usuarios/contraseñas. <br>🐍 Continua formación en habilidades de programación en <b>Python</b>, explorando estrategias ofensivas y defensivas en ciberseguridad.
-          </p>
-        </div>
-        <div id="div-title">
-          <p 
-          data-section="Experience2" data-value="jobTitle">Prácticas de empresa en Onets SL <br> Octubre 2023 - diciembre 2023
-        </p>         
-        </div>
-        <div id="div-exp">
-          <p id="exp-parag"
-          data-section="Experience2" 
+          data-section="Experience1" 
           data-value="jobDescription">
             🛠️ Colaboración en proyectos de empresa, aplicando los conocimientos y habilidades adquiridos en el Certificado de Profesionalidad con enfoque en lenguajes de programación, frameworks y librerías para el desarrollo de proyectos Full Stack.<br>🚀 Implementación de IA a través del procesamiento de imágenes.
           </p>
         </div>
         <div id="div-title">
           <p 
-          id="exp-parag2"
-          data-section="Experience3" data-value="jobTitle">Certificado de profesionalidad IFCT0609 <br> Programación de sistemas informáticos - 590 horas<br> abril 2023 - octubre 2023
+          data-section="Experience2" data-value="jobTitle">Analista de Contenidos y soporte a usuarios en Accenture <br> marzo 2020 - feb 2023 -- Lisboa, Portugal
         </p>         
         </div>
         <div id="div-exp">
           <p id="exp-parag"
-          data-section="Experience3" 
-          data-value="jobDescription">
-          ✨ Estudiando un Certificado de profesionalidad enfocado en el desarrollo full-stack.<br>
-          💻 Durante la formación aprendo lenguajes de programación, librerías, frameworks y otras herramientas de desarrollo como <i class="fa fa-html5" aria-hidden="true"></i> <b>HTML 5</b>, <i class="fa fa-css3" aria-hidden="true"></i> <b>CSS 3</b> (incluyendo <i class="fa-brands fa-bootstrap"></i> <b>Bootstrap 5</b> y <b>Tailwind 3</b>),<i class="fab fa-js"></i> <b>JavaScript</b> (incluyendo <i class="fa-brands fa-node-js"></i> <b>Node.js</b> y <i class="fa-brands fa-react"></i> <b>React</b>), <b>MySQL 8</b>, <i class="fa-brands fa-python"></i> <b>Python</b> y muchos más.
+          data-section="Experience2" data-value="jobDescription">
+            🔍Reviso contenido generado por los usuarios, tomando medidas para garantizar una experiencia segura y placentera para los mismos. <br> 🤝 Asistía a los usuarios en la recuperación de sus cuentas, brindando un soporte empático y asegurando la seguridad de sus datos a través de meticulosos procesos de verificación de identidad.
           </p>
+        </div>
+      </section>
+<!--      
+          EDUCACIÓN
+
+-->
+      <section id="education">
+        <div>
+          <h2 id="edu-title"
+          data-section="education"
+          data-value="education">Formación</h2>
         </div>
         <div id="div-title">
           <p 
-          data-section="Experience4" data-value="jobTitle">Analista de Contenidos y soporte a usuarios en <b>Accenture</b> <br> marzo 2020 - febrero 2023 <br>Lisboa, Portugal
+          data-section="Education1"
+          data-value="jobTitle">
+          Master en Ciberseguridad y hacking ético en Fundación Adecco <br>- 635 horas - oct 2023 - presente
         </p>         
         </div>
         <div id="div-exp">
-          <p id="exp-parag">
-            🔍Reviso contenido generado por los usuarios, tomando medidas para garantizar una experiencia segura y placentera para los mismos. <br>
-            🤝 Asistía a los usuarios en la recuperación de sus cuentas, brindando un soporte empático y asegurando la seguridad de sus datos a través de meticulosos procesos de verificación de identidad.
+          <p id="edu-parag"
+          data-section="Education1"
+          data-value="jobDescription">
+          🌟 Dominio de <b>Kali Linux</b>. Análisis exhaustivo de vulnerabilidades con herramientas como: <b>Burp Suite</b>, <b>OWASP ZAP</b>, <b>Open VAS</b>, <b>Nessus</b> y otras. <br>🐍 Continua formación en habilidades de programación en <b>Python</b>, explorando estrategias ofensivas y defensivas en ciberseguridad. <br>🔐 Identificación y gestión de amenazas digitales.<br>🛡️ Uso de herramientas de anonimato y protocolos de seguridad en redes.
+          </p>
+        </div>
+        <div id="div-title">
+          <p
+          data-section="Education2" data-value="jobTitle">Programación de sistemas informáticos - IFCT0609 <br> en CDM Embajadores - 590 horas - abril 2023 - octubre 2023
+        </p>         
+        </div>
+        <div id="div-exp">
+          <p id="edu-parag"
+          data-section="Education2"
+          data-value="jobDescription">
+          ✨ Estudiando un Certificado de profesionalidad enfocado en el desarrollo full-stack.<br>
+          💻 Aprendo lenguajes de programación, librerías, frameworks y otras herramientas de desarrollo como <i class="fa fa-html5" aria-hidden="true"></i> <b>HTML 5</b>, <i class="fa fa-css3" aria-hidden="true"></i> <b>CSS 3</b> (incluyendo <i class="fa-brands fa-bootstrap"></i> <b>Bootstrap 5</b>), <i class="fab fa-js"></i> <b>JavaScript</b> (incluyendo <i class="fa-brands fa-node-js"></i> <b>Node.js</b> y <i class="fa-brands fa-react"></i> <b>React</b>), <b>MySQL 8</b>, <i class="fa-brands fa-python"></i> <b>Python</b> y muchos más.
           </p>
         </div>
       </section>
@@ -204,6 +230,7 @@ https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#aa-using-custom
 
       </section>
     </main>
+    <footer></footer>
     <script src="script.js"></script>
   </body>
 </html>

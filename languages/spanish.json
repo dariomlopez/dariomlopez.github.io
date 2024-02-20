@@ -2,6 +2,7 @@
   "navbar": {
     "about": "Sobre mí",
     "experience": "Experiencia",
+    "education":"Formación",
     "projects": "Proyectos",
     "contact": "Contacto",
     "lang": "Idioma"
@@ -9,31 +10,33 @@
   "profile": {
     "hello": "Hola! Soy",
     "rol": "🖥️ Desarrollador Full-Stack 🌱 Comenzando en la ciberseguridad",
-    "description": "A principios de 2023 decidí cambiar mi rumbo tanto vital como profesional y me embarque en un Certificado de profesionalidad enfocado en herramientas y lenguajes full-stack. <br> Durante este último año demostré mi capacidad para enfrentar desafíos y adquirir nuevos conocimientos."
+    "description": "A principios de 2023 decidí cambiar mi rumbo tanto vital como profesional y me embarque en un Certificado de Profesionalidad enfocado en herramientas y lenguajes full-stack. <br> Durante este último año demostré mi capacidad para enfrentar desafíos y adquirir nuevos conocimientos."
   },
 
-  "experiencia": {
-    "experiencia" : "Experiencia"
+  "experience": {
+    "experience" : "Experiencia"
   },
 
-    "Experience1": {
-      "jobTitle": "Curso en Ciberseguridad y hacking ético en Fundación Adecco -- oct 2023 - presente",
-      "jobDescription": "Inmerso en un curso centrado en protección digital:<br> Identificación y gestión de amenazas digitales, salvaguarda de información en línea y prevención de suplantación de identidad.<br> Uso avanzado de herramientas de anonimato y protocolos de seguridad en redes. <br>Dominio de Kali Linux, análisis exhaustivo de vulnerabilidades y gestión de usuarios/contraseñas. <br> Continua formación en habilidades de programación en Python, explorando estrategias ofensivas y defensivas en ciberseguridad."
-    },
+  "Experience1": {
+    "jobTitle": "Desarrollador Full Stack en Onets SL <br> Octubre 2023 - diciembre 2023",
+    "jobDescription": "🛠️ Colaboración en proyectos de empresa, aplicando los conocimientos y habilidades adquiridos en el Certificado de Profesionalidad con enfoque en lenguajes de programación, frameworks y librerías para el desarrollo de proyectos Full Stack.<br>🚀 Implementación de IA a través del procesamiento de imágenes."
+  },
 
-    "Experience2": {
-      "jobTitle": "Prácticas de empresa en Onets SL <br> Octubre 2023 - diciembre 2023",
-      "jobDescription": "🛠️ Colaboración en proyectos de empresa, aplicando los conocimientos y habilidades adquiridos en el Certificado de Profesionalidad con enfoque en lenguajes de programación, frameworks y librerías para el desarrollo de proyectos Full Stack.<br>🚀 Implementación de IA a través del procesamiento de imágenes."
-    },
+  "Experience2": {
+    "jobTitle": "Analista de Contenidos y soporte a usuarios en Accenture <br> marzo 2020 - feb 2023 -- Lisboa, Portugal",
+    "jobDescription": "🔍Reviso contenido generado por los usuarios, tomando medidas para garantizar una experiencia segura y placentera para los mismos. <br> 🤝 Asistía a los usuarios en la recuperación de sus cuentas, brindando un soporte empático y asegurando la seguridad de sus datos a través de meticulosos procesos de verificación de identidad."
+  },
 
-    "Experience3": {
-      "jobTitle": "Certificado de profesionalidad en Programación de Sistemas Informáticos<br> Abril 2023 - Octubre 2023",
-      "jobDescription": "Participando en un Certificado de Profesionalidad centrado en el desarrollo Full-Stack que cubre una variedad de lenguajes, bibliotecas, frameworks y otras herramientas de desarrollo como HTML 5, CSS 3 (incluyendo Bootstrap 5 y Tailwind 3), JavaScript (incluyendo Node.js y React), MySQL 8 y Python entre otros.<br> Aplicación diaria de estas habilidades en proyectos personales y académicos, enriqueciendo mi competencia técnica y adquiriendo habilidades valiosas para mi futuro profesional y aspiraciones personales."
-    },
-
-    "Experience4": {
-      "jobTitle": "Analista de Contenidos y soporte a usuarios en Accenture <br> Mar 2020 - Feb 2023 <br>Lisboa, Portugal",
-      "jobDescription": "Reviso contenido generado por los usuarios, tomando medidas para garantizar una experiencia segura y placentera para los mismos. <br>Asistía a los usuarios en la recuperación de sus cuentas, brindando un soporte empático y asegurando la seguridad de sus datos a través de meticulosos procesos de verificación de identidad."
-    }
-  
+  "education": {
+    "education" : "Formación"
+  },
+      
+  "Education1": {
+    "jobTitle": "Master en Ciberseguridad y hacking ético en Fundación Adecco <br>- 635 horas - oct 2023 - presente",
+    "jobDescription": "🌟 Dominio de <b>Kali Linux</b>. Análisis exhaustivo de vulnerabilidades con herramientas como: <b>Burp Suite</b>, <b>OWASP ZAP</b>, <b>Open VAS</b>, <b>Nessus</b> y otras. <br>🐍 Continua formación en habilidades de programación en <b>Python</b>, explorando estrategias ofensivas y defensivas en ciberseguridad. <br>🔐 Identificación y gestión de amenazas digitales.<br>🛡️ Uso de herramientas de anonimato y protocolos de seguridad en redes."
+  },
+  "Education2": {
+    "jobTitle": "Programación de sistemas informáticos - IFCT0609 <br> en CDM Embajadores - 590 horas - abril 2023 - octubre 2023",
+    "jobDescription": "✨ Estudiando un Certificado de profesionalidad enfocado en el desarrollo full-stack.<br>💻 Aprendo lenguajes de programación, librerías, frameworks y otras herramientas de desarrollo como <i class=\"fa fa-html5\" aria-hidden=\"true\"></i> <b>HTML 5</b>, <i class=\"fa fa-css3\" aria-hidden=\"true\"></i> <b>CSS 3</b> (incluyendo <i class=\"fa-brands fa-bootstrap\"></i> <b>Bootstrap 5</b>), <i class=\"fab fa-js\"></i> <b>JavaScript</b> (incluyendo <i class=\"fa-brands fa-node-js\"></i> <b>Node.js</b> y <i class=\"fa-brands fa-react\"></i> <b>React</b>), <b>MySQL 8</b>, <i class=\"fa-brands fa-python\"></i> <b>Python</b> y muchos más."
+  }
 }
