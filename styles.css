@@ -82,7 +82,7 @@ a {
 }
 
 a:hover {
-  color: grey;
+  color: var(--text-bg-sec);
 }
 
 /*desktop nav*/
@@ -95,7 +95,7 @@ a:hover {
   width: 100vw;
   z-index: 90;
   background: transparent;
-  backdrop-filter: blur(7.8px);
+  backdrop-filter: blur(15px);
 }
 
 /* Logo */
