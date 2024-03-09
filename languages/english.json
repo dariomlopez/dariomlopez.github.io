@@ -19,8 +19,8 @@
   },
 
   "Experience1": {
-    "jobTitle": "Full Stack Developer at Onets SL <br> October 2023 - December 2023",
-    "jobDescription": "🛠️ Collaboration on company projects, applying the knowledge and skills acquired in the Vocational Certificate with a focus on programming languages, frameworks, and libraries for Full Stack project development.<br>🚀 Implementation of AI through image processing."
+    "jobTitle": "Back-End Developer at Onets SL <br> October 2023 - December 2023",
+    "jobDescription": "🌐 Collaborating in the development of an interactive web platform dedicated to learning.<br> 💻 Development of endpoints for the website using Express.js.<br> 🛠️ Implementation and management of database connections using Express.js to ensure the integrity and efficiency of the systems.<br> 🤖 Integration and configuration of ChatGPT as an assistant.<br> 💡Design and develop specialized database queries, using Node.js and Express.js, to optimize the interaction between users and ChatGPT.<br> 🚀 Assisted with the implementation of an AI through image processing, achieving a 15% enhancement of the AI."
     },
 
   "Experience2": {

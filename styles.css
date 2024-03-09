@@ -358,8 +358,9 @@ a:hover {
   justify-content: center; 
   align-items: center;
   height: 100%;
-  padding: 15px;
+  /* padding: 15px; */
   gap: 5px;
+  margin: 20px 0 20px 0;
 }
 
 #div-title > p {
@@ -369,7 +370,6 @@ a:hover {
   text-align: left;
   justify-content: center;
   font-size: 1.25em;
-  margin: 20px 0 10px 0 ;
 }
 
 #div-exp {
