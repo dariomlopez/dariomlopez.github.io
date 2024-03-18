@@ -366,10 +366,10 @@ a:hover {
   background: var(--text-bg-sec);
   border-radius: 5px;
   padding: 8px;
-  text-align: left;
+  text-align: center;
   justify-content: center;
   font-size: 1.25em;
-  width: 80%;
+  width: fit-content;
 }
 
 #div-exp {
