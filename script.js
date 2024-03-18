@@ -35,6 +35,12 @@ const changeLanguage = async language => {
   } 
 };
 
+/** Language preferences of the user */
+
+const userLanguage = navigator.language.split("-")[0] || navigator.languages.split("-")[0];
+
+changeLanguage(userLanguage);
+
 /** Función para cambiar el menu del navbar */
 
 function toggleMenu() {
