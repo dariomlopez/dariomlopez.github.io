@@ -50,18 +50,6 @@ function toggleMenu() {
   icon.classList.toggle("open");
 }
 
-/** Función para cambiar el icono cuando cambia el modo */
-
-function toggleIconTheme() {
-  if (page.classList.contains("dark")) {
-    toggleIcon.src = "./assets/light.png";
-    toggleIcon.alt = "Light mode";
-  } else {
-    toggleIcon.src = "./assets/night-mode.png";
-    toggleIcon.alt = "Dark mode";
-  }
-}
-
 // Verifica si hay un estado previamente guardado en el almacenamiento local
 
 function checkedState() {
@@ -73,6 +61,18 @@ function checkedState() {
   }
 }
 
+/** Función para cambiar el icono cuando cambia el modo */
+
+function toggleIconTheme() {
+  if (page.classList.contains("dark")) {
+    toggleIcon.src = "./assets/light.png";
+    toggleIcon.alt = "Light mode";
+  } else {
+    toggleIcon.src = "./assets/night.png";
+    toggleIcon.alt = "Night mode";
+  }
+}
+
 /** Cambia la clase del body añadiendo o eliminando la clase */
 
 function toggleTheme() {
@@ -81,7 +81,7 @@ function toggleTheme() {
     page.classList.remove("light");
     page.classList.add("dark")
   } else {
-    /** Si el checkbox esta desmarcado aplic el tema claro */
+    /** Si el checkbox esta desmarcado aplica el tema claro */
     page.classList.remove("dark");
     page.classList.add("light")
   }
