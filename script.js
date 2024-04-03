@@ -3,7 +3,7 @@
 
 const page = document.querySelector(".page");
 const toggle = document.querySelector(".toggle-input");
-const toggleIcon = page.querySelector(".toggle-icon");
+const toggleIcon = document.querySelector(".toggle-icon");
 
 /** Elementos del DOM para cambio de idioma */
 /** tag select cuando la pantalla es grande */
@@ -79,11 +79,11 @@ function toggleTheme() {
   if(toggle.checked) {
     /** Si el checkbox está marcado aplica el tema oscuro */
     page.classList.remove("light");
-    page.classList.add("dark")
+    page.classList.add("dark");
   } else {
     /** Si el checkbox esta desmarcado aplica el tema claro */
     page.classList.remove("dark");
-    page.classList.add("light")
+    page.classList.add("light");
   }
 
   /** Llamamos a la función para que cambie el icono */
