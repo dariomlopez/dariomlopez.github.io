@@ -93,9 +93,6 @@ a:hover {
 }
 
 /* Logo */
-.logo-div {
-  user-select: none;
-}
 
 .logo {
   top: 0px;
@@ -103,6 +100,7 @@ a:hover {
   width: 105px;
   height: 103px;
   position: fixed;
+  user-select: none;
 }
 
 /* Hamburguer menu */
