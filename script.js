@@ -4,6 +4,7 @@
 const page = document.querySelector(".page");
 const toggle = document.querySelector(".toggle-input");
 const toggleIcon = document.querySelector(".toggle-icon");
+const toggleIconSmall = document.querySelector(".toggle-icon-small");
 
 /** Elementos del DOM para cambio de idioma */
 /** tag select cuando la pantalla es grande */
@@ -67,9 +68,13 @@ function toggleIconTheme() {
   if (page.classList.contains("dark")) {
     toggleIcon.src = "./assets/light.png";
     toggleIcon.alt = "Light mode";
+    toggleIconSmall.src = "./assets/light.png";
+    toggleIconSmall.alt = "Light mode";
   } else {
     toggleIcon.src = "./assets/night.png";
     toggleIcon.alt = "Night mode";
+    toggleIconSmall.src = "./assets/night.png";
+    toggleIconSmall.alt = "Light mode";
   }
 }
 
