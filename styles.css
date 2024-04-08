@@ -41,7 +41,7 @@ body {
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 17vh;
+  scroll-padding-top: 15vh;
 }
 
 /* Transitions */
@@ -258,7 +258,7 @@ a:hover {
 #profile {
   display: flex;
   justify-content: center;
-  margin: 0;
+  margin: 70px 0px 0px 0px;
   padding: 0;
   text-align: center;
   width: 100vw;
