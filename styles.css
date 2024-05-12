@@ -381,11 +381,12 @@ a:hover {
 }
 
 .project-list {
-  width: 90vw;
+  width: 90%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+  gap: 20px;
   align-items: center;
-  justify-content: center;
+  justify-items: center;
   margin: 60px 60px;
 }
 
