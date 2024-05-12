@@ -412,7 +412,7 @@ a:hover {
 .layer {
   width: fit-content;
   height: 0;
-  background: linear-gradient(rgba(22,38,59,0.6), #fb5656);
+  background: linear-gradient(rgba(22,38,59,0.6), #ff5757);
   backdrop-filter: blur(4px);
   border-radius: 10px;
   position: absolute;
