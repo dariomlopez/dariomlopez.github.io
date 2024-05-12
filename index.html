@@ -28,7 +28,7 @@
               data-section="navbar" data-value="education">Formación</a>
             </li>
             <li>
-              <a href="#projects"
+              <a href="#projects-section"
               data-section="navbar" data-value="projects" data-section="navbar" data-value="projects">Proyectos</a>
             </li>
             <li>
@@ -70,7 +70,7 @@
             <a href="#education" onclick="toggleMenu()" data-section="navbar" data-value="education">Formación</a>
           </li>
           <li>
-            <a href="#projects" onclick="toggleMenu()" data-section="navbar" data-value="projects">Proyectos</a>
+            <a href="#projects-section" onclick="toggleMenu()" data-section="navbar" data-value="projects">Proyectos</a>
           </li>
           <li>
             <a data-section="navbar" data-value="lang">Idioma</a>
@@ -112,7 +112,7 @@
         data-section="profile" data-value="description">
           A principios de 2023 decidí cambiar mi rumbo tanto vital como profesional y me embarque en un Certificado de profesionalidad enfocado en herramientas y lenguajes de desarrollo full-stack. <br> 
           Durante este último año demostré mi capacidad para enfrentar desafíos y adquirir nuevos conocimientos. <br>
-          Ahora, después de aprender fundamentos de programación front end y lenguajes back end estoy inmerso en un curso de ciberseguridad.
+          Ahora, después de aprender fundamentos de programación front end y lenguajes back-end estoy inmerso en un curso de ciberseguridad.
         </p>
 
 <!--            CONTACTO        -->
@@ -206,20 +206,48 @@
 
 <!--          PROJECTS -->
 
-      <section id="projects">
-        <div class="container">
-          <h2 id="project-title"
+      <section id="projects-section">
+          <h2 id="project-section-title"
           data-section="projects"
           data-value="projects">Proyectos</h2>
           <div class="project-list">
             <div class="project">
               <img src="./assets/projetcs_images/BlueShield_SecurityAudit.png" alt="security_audit">
+              <div class="layer">
+                <h3 id="project-card-title"
+                data-section=""
+                data-value="">Informe de seguridad </h3>
+                <p data-section=""
+                data-value="">Informe de auditoría realizado sobre una web para comprobar su seguridad y la lógica del aplicativo web.</p>
+                <a href="https://" target="_blank"><i class="fa-solid fa-link"></i>
+                </a>
+              </div>
             </div>
             <div class="project">
               <img src="./assets/projetcs_images/Password_Generator.png" alt="password_generator">
+              <div class="layer">
+                <h3 id="project-card-title"
+                data-section=""
+                data-value="">Generador de contraseñas aleatorias</h3>
+                <p data-section=""
+                data-value="">Un generador de contraseñas aleatorias hecho con vanilla <i class="fa fa-html5" aria-hidden="true"></i> <b>HTML</b>, <i class="fa fa-css3" aria-hidden="true"></i> <b>CSS</b> y <i class="fab fa-js"></i> <b>JavaScript</b></p>
+                <a href="https://" target="_blank"><i class="fa-solid fa-link"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project">
+              <img src="./assets/projetcs_images/Pong_clone.png" alt="password_generator">
+              <div class="layer">
+                <h3 id="project-card-title"
+                data-section=""
+                data-value="">Clon del juego Pong</h3>
+                <p data-section=""
+                data-value="">Clon del mítico juego Pong hecho con vanilla <i class="fa fa-html5" aria-hidden="true"></i> <b>HTML</b>, <i class="fa fa-css3" aria-hidden="true"></i> <b>CSS</b> y <i class="fab fa-js"></i> <b>JavaScript</b></p>
+                <a href="https://" target="_blank"><i class="fa-solid fa-link"></i>
+                </a>
+              </div>
             </div>
           </div>
-        </div>
       </section>
     </main>
     <footer></footer>
