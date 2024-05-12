@@ -251,7 +251,7 @@ a:hover {
   background-color: #16263b;
 }
 
-/*Estilos para el encabezado/about section*/
+/*Styles for hero and profile section */
 
 #profile {
   display: flex;
@@ -304,7 +304,9 @@ a:hover {
   width: 100vw;
 }
 
-#about {
+/* Styles for all the sections */
+
+#about-section, #experience-section, #education-section {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -314,17 +316,8 @@ a:hover {
 }
 
 #div-about {
-  width: 60vw;
+  width: 100vw;
   font-size: 1.25em;
-}
-
-#experience {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin: 15px 0 25px 0;
-  padding: 0;
-  text-align: center;
 }
 
 #about-parag, #exp-parag, #edu-parag {
@@ -344,7 +337,7 @@ a:hover {
 
 #exp-title, #edu-title, #project-section-title {
   font-size: 2.25em;
-  margin: 40px auto;
+  margin: 65px auto 40px 0;
 }
 
 #div-title {
@@ -383,14 +376,17 @@ a:hover {
 
 #projects-section {
   width: 100vw;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-list {
+  width: 90vw;
   display: grid;
-  grid-template-columns: 400px 400px 400px;
-  grid-gap: 40px;
-  margin: 50px auto;
-  width: min-content;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  align-items: center;
+  justify-content: center;
+  margin: 60px 60px;
 }
 
 .project {
@@ -401,12 +397,11 @@ a:hover {
 }
 
 .project img {
-  height: 450px;
-  width: 400px;
+  height: 320px;
+  width: 410px;
   border-radius: 15px;
   display: block;
-  height: 350px;
-  transition: transform 0.8s;
+  transition: transform 1s;
 }
 
 .layer {
