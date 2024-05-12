@@ -95,12 +95,13 @@ a:hover {
 /* Logo */
 
 .logo {
-  top: 0px;
+  top: 2px;
   left: 5px;
-  width: 105px;
-  height: 103px;
+  width: 125px;
+  height: 123px;
   position: fixed;
   user-select: none;
+  border-radius: 10%;
 }
 
 /* Hamburguer menu */
