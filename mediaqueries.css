@@ -1,3 +1,19 @@
+@media screen and (max-width: 1520px) {
+  .project-list {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .project img {
+    height: 290px;
+    width: 350px;
+  }
+
+  .layer p {
+    font-size: 1.3rem;
+  }
+}
+
 @media screen and (max-width: 1030px) {
   nav .logo {
     width: 100px;
@@ -29,6 +45,26 @@
   .project img {
     height: 200px;
     width: 300px;
+  }
+
+  #project-card-title {
+    font-size: 1.25rem;
+  }
+
+  .layer p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .project-list {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .project img {
+    height: 290px;
+    width: 350px;
   }
 }
 
