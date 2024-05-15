@@ -4,6 +4,7 @@
 /* General styles */
 * {
   margin: 0;
+  padding: 0;
 }
 
 /* body styles */
@@ -28,20 +29,24 @@
 }
 
 .page {
-position: relative;
-background-color: var(--main-bg);
-min-height: 100vh;
-box-sizing: border-box;
+  position: relative;
+  background-color: var(--main-bg);
+  min-height: 100vh;
+  box-sizing: border-box;
 }
 
 body {
   font-family: Alata, Akshar, Adamina, Roboto, Oxygen, Geneva, Tahoma, sans-serif;
   background-color: var(--main-bg);
+  margin: 0;
+  padding: 0;
 }
 
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 15vh;
+  margin: 0;
+  padding: 0;
 }
 
 /* Transitions */
@@ -86,7 +91,6 @@ a:hover {
   position: sticky;
   top: 0;
   left: 0;
-  width: 100vw;
   z-index: 90;
   background: transparent;
   backdrop-filter: blur(15px);
@@ -95,10 +99,10 @@ a:hover {
 /* Logo */
 
 .logo {
-  top: 2px;
-  left: 5px;
-  width: 125px;
-  height: 123px;
+  top: 5px;
+  left: 10px;
+  width: 105px;
+  height: 103px;
   position: fixed;
   user-select: none;
   border-radius: 10%;
@@ -112,17 +116,9 @@ a:hover {
   margin: 0;
   padding: 0;
   top: 0;
-  width: 100vw;
+  /* width: 100vw; */
   background: transparent;
   backdrop-filter: blur(7.8px);
-}
-
-#hamburger-nav .logo {
-  left: 5px;
-  margin: 0px;
-  position: fixed;
-  width: 105px;
-  height: 103px;
 }
 
 .hamburger-menu {
@@ -254,15 +250,17 @@ a:hover {
 
 /*Styles for hero and profile section */
 
-#profile {
+/* #profile {
   display: flex;
   justify-content: center;
-  margin: 70px 0px 0px 0px;
+  align-content: center;
+  align-items: center;
+  margin: 70px 0 0 0;
   padding: 0;
   text-align: center;
-  width: 100vw;
+  width: 90%;
   font-size: 1.25em;
-}
+} */
 
 .hero-div-name {
   display: flex;
@@ -273,7 +271,7 @@ a:hover {
 
 #hero-name {
   font-size: 2.5em;
-  margin: 0 5vw;
+  margin: 0 auto;
 }
 
 #hero-name, #exp-title, #edu-title, #project-section-title {
@@ -282,10 +280,6 @@ a:hover {
 
 #hero-role, #hello {
   color: var(--text-sec);
-  margin: 5px 5vw;
-}
-
-#hero-role {
   margin: 10px auto;
 }
 
@@ -302,22 +296,27 @@ a:hover {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 100vw;
+  margin: 0;
+  padding: 0;
 }
 
-/* Styles for all the sections */
+/* Styles for sections */
 
 #about-section, #experience-section, #education-section {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 0;
+  align-content: center;
   text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  font-size: 1.25em;
 }
 
 #div-about {
-  width: 100vw;
+  width:60%;
   font-size: 1.25em;
 }
 
@@ -338,15 +337,12 @@ a:hover {
 
 #exp-title, #edu-title, #project-section-title {
   font-size: 2.25em;
-  margin: 65px auto 40px 0;
+  margin: 65px 0 40px 0;
 }
 
 #div-title {
-  display: flex;
   justify-content: center; 
   align-items: center;
-  height: 100%;
-  gap: 5px;
   margin: 20px 0 20px 0;
 }
 
@@ -365,30 +361,30 @@ a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 100vw;
+  width: 90%;
   font-size: 1.25em;
 }
 
 #exp-parag, #edu-parag {
-  width: 60vw;
+  width: 80%;
 }
 
 /* Projects section */
 
 #projects-section {
-  width: 100vw;
+  width: 90vw;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 .project-list {
   width: 90%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   align-items: center;
   justify-items: center;
-  margin: 60px 60px;
 }
 
 .project {
@@ -396,11 +392,12 @@ a:hover {
   position: relative;
   overflow: hidden;
   width: fit-content;
+  margin: 0 auto;
 }
 
 .project img {
   height: 320px;
-  width: 410px;
+  width: 400px;
   border-radius: 15px;
   display: block;
   transition: transform 1s;
@@ -428,7 +425,7 @@ a:hover {
 #project-card-title {
   color: var(--text-main);
   font-size: 35px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .project:hover img {
@@ -445,6 +442,6 @@ a:hover {
 }
 
 .layer a {
-  margin-top: 25px;
+  margin: 10px auto;
 }
 

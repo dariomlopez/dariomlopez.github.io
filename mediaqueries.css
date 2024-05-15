@@ -1,4 +1,11 @@
-@media screen and (max-width: 960px){
+@media screen and (max-width: 1030px) {
+  nav .logo {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 990px) {
   #desktop-nav {
     display: none;
   }
@@ -6,5 +13,31 @@
   #hamburger-nav{
     display: flex;
     position: relative;
+  }
+
+  nav .logo {
+    width: 75px;
+    height: 75px;
+  }
+
+  .project-list {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .project img {
+    height: 200px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  nav > img {
+    display: none;
+  }
+
+  .project-list {
+    gap: 20px;
   }
 }
