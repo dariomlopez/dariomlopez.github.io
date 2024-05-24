@@ -42,6 +42,10 @@ body {
   padding: 0;
 }
 
+b {
+  font-family: Adamina;
+}
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 15vh;
@@ -374,7 +378,8 @@ a:hover {
 .project-list {
   width: 90%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
   align-items: center;
   justify-items: center;
   align-content: center;

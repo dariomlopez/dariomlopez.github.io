@@ -1,7 +1,7 @@
 @media screen and (max-width: 1520px) {
   .project-list {
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 30px;
   }
 
   .project img {
