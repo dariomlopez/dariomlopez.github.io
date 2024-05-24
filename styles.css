@@ -395,11 +395,16 @@ a:hover {
 }
 
 .project img {
-  height: 320px;
+  height: 350px;
   width: 400px;
   border-radius: 15px;
   display: block;
   transition: transform 1s;
+}
+
+#calculadora-react {
+  height: 400px;
+  width: 320px;
 }
 
 .layer {
