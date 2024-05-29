@@ -398,7 +398,7 @@ a:hover {
   width: 400px;
   border-radius: 15px;
   display: block;
-  transition: transform 1s;
+  transition: transform 900ms;
 }
 
 #calculadora-react {
@@ -409,8 +409,8 @@ a:hover {
 .layer {
   width: fit-content;
   height: 0;
-  background: linear-gradient(rgba(158, 195, 243, 0.5), rgba(245, 95, 95, 0.9) 60%);
-  backdrop-filter: blur(15px);
+  background: linear-gradient(rgba(79, 94, 255, 0.5), rgba(252, 66, 66, 0.9));
+  backdrop-filter: blur(5px);
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -422,7 +422,7 @@ a:hover {
   flex-direction: column;
   padding: 0 40px;
   text-align: center;
-  transition: height 0.8s;
+  transition: height 1300ms;
 }
 
 #project-card-title {
@@ -432,7 +432,7 @@ a:hover {
 }
 
 .project:hover img {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .project:hover .layer {
@@ -440,8 +440,9 @@ a:hover {
 }
 
 .layer p {
-  color: var(--text-ter);
-  font-size: 1.2em;
+  color: var(--text-sec);
+  font-size: 1.35em;
+  font-family: Roboto, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .layer a {
