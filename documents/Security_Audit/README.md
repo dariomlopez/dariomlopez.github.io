@@ -5,8 +5,8 @@ privacidad del sitio web analizado.
 Este ha sido el proyecto de final de curso realizado para el bootcamp/formación en Ciberseguridad y hacking ético en Fundacción Adecco.
 
 Participantes del proyecto y compañeros:
-Darío Maroto López
-Rodrigo Verdú Fernández
-Alejandro Navarro de la Torre
-Raúl Carballo García
-Mariama Salhi Seidi
+<br>- Darío Maroto López
+<br>- Rodrigo Verdú Fernández
+<br>- Alejandro Navarro de la Torre
+<br>- Raúl Carballo García
+<br>- Mariama Salhi Seidi
