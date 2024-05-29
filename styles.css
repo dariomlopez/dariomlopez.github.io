@@ -30,7 +30,6 @@
 
 .page {
   position: relative;
-  background-color: var(--main-bg);
   min-height: 100vh;
   box-sizing: border-box;
 }
@@ -410,8 +409,8 @@ a:hover {
 .layer {
   width: fit-content;
   height: 0;
-  background: linear-gradient(rgba(22,38,59,0.6), #ff5757);
-  backdrop-filter: blur(4px);
+  background: linear-gradient(rgba(158, 195, 243, 0.5), rgba(245, 95, 95, 0.9) 60%);
+  backdrop-filter: blur(15px);
   border-radius: 10px;
   position: absolute;
   left: 0;
