@@ -10,3 +10,10 @@ Participantes del proyecto y compañeros:
 <br>- Alejandro Navarro de la Torre
 <br>- Raúl Carballo García
 <br>- Mariama Salhi Seidi
+
+Todos los detalles, pasos, herramientas se pueden leer en el PDF.
+![Kali Linux](https://img.shields.io/badge/Kali%20Linux-green?style=flat&logo=kalilinux)
+![Burp Suite](https://img.shields.io/badge/Burp%20Suite-orange?style=flat)
+![OWASP](https://img.shields.io/badge/OWASP-grey?style=plastic&logo=owasp)
+![GitHub](https://img.shields.io/badge/GitHub-black?style=plastic&logo=github)
+![Git](https://img.shields.io/badge/Git-white?style=plastic&logo=git)
