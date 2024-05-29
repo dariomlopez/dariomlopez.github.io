@@ -25,7 +25,6 @@ For security and data protection reasons, part of the information as well as ima
 This has been the final project of the course carried out for the bootcamp/training in Cybersecurity and Ethical Hacking at Fundacción Adecco.
 
 Project participants:
-
 <br>- Darío Maroto López
 <br>- Rodrigo Verdú Fernández
 <br>- Alejandro Navarro de la Torre
