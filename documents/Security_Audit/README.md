@@ -30,6 +30,7 @@ Project participants:
 <br>- Alejandro Navarro de la Torre
 <br>- Raúl Carballo García
 <br>- Mariama Salhi Seidi
+
 All details, steps, and tools used can be read in the PDF.<br>
 
 ## Some tools used:<br>
