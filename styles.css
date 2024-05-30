@@ -401,7 +401,7 @@ a:hover {
   transition: transform 900ms;
 }
 
-#calculadora-react {
+#calculadora-react, #proyecto-back-end {
   height: 400px;
   width: 320px;
 }
@@ -441,10 +441,10 @@ a:hover {
 
 .layer p {
   color: var(--text-sec);
-  font-size: 1.35em;
+  font-size: 1.2em;
   font-family: Roboto, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .layer a {
-  margin: 10px auto;
+  margin: 13px auto;
 }
