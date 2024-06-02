@@ -54,7 +54,7 @@ html {
 
 /* Transitions */
 
-a, .btn {
+a {
   transition: all 500ms ease;
 }
 
@@ -77,14 +77,22 @@ nav {
   font-size: 1.35em;
 }
 
-a {
+a, li label {
   color: var(--text-main);
   text-decoration: none;
   text-decoration-color: white;
 }
 
+li label {
+  user-select: none;
+}
+
 a:hover {
   color: var(--shadow);
+}
+
+select {
+  position: static;
 }
 
 /*desktop nav*/
@@ -119,7 +127,6 @@ a:hover {
   margin: 0;
   padding: 0;
   top: 0;
-  /* width: 100vw; */
   background: transparent;
   backdrop-filter: blur(7.8px);
 }
@@ -166,6 +173,10 @@ a:hover {
   color: black;
   text-decoration: none;
   transition: all 0.5 ease-in-out;
+}
+
+.menu-links label {
+  color: black;
 }
 
 .menu-links li {

@@ -39,5 +39,37 @@
   "Education2": {
     "jobTitle": "Programming of computer systems - IFCT0609 <br> at CDM Embajadores - 590 hours - April 2023 - Oct 2023",
     "jobDescription": "✨ Studying a Vocational Certificate focused on full-stack development.<br>💻 Learning programming languages, libraries, frameworks, and other development tools such as <i class=\"fa fa-html5\" aria-hidden=\"true\"></i> <b>HTML 5</b>, <i class=\"fa fa-css3\" aria-hidden=\"true\"></i> <b>CSS 3</b> (including <i class=\"fa-brands fa-bootstrap\"></i> <b>Bootstrap 5</b>), <i class=\"fab fa-js\"></i> <b>JavaScript</b> (including <i class=\"fa-brands fa-node-js\"></i> <b>Node.js</b> and <i class=\"fa-brands fa-react\"></i> <b>React</b>), <b>MySQL 8</b>, <i class=\"fa-brands fa-python\"></i> <b>Python</b>, and many more."
-   }
+   },
+
+   "projects": {
+    "projects":"Projects"
+  },
+
+  "project1": {
+    "projectTitle":"Audit report",
+    "projectDescription": "Informe de auditoría realizado sobre una web para comprobar su seguridad y la lógica del aplicativo web.",
+    "projectLink": "Ver PDF"
+  },
+
+  "project2": {
+    "projectTitle":"Informe de auditoria",
+    "projectDescription": "Informe de auditoría realizado sobre una web para comprobar su seguridad y la lógica del aplicativo web.",
+    "projectLink": "Ver PDF"
+  },
+  
+  "project3": {
+    "projectTitle":"Proyecto Back-End",
+    "projectDescription": "Back-end de una página web utilizando herramientas como Express.js sobre  Node.js para endpoints y  MySQL como base de datos.",
+    "projectLink": "Ver PDF"
+  },
+  
+  "project4": {
+    "projectTitle":"Informe de auditoria",
+    "projectDescription": "Informe de auditoría realizado sobre una web para comprobar su seguridad y la lógica del aplicativo web."
+  },
+  
+  "project5": {
+    "projectTitle":"Informe de auditoria",
+    "projectDescription": "Informe de auditoría realizado sobre una web para comprobar su seguridad y la lógica del aplicativo web."
+  }
 }

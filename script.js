@@ -13,27 +13,49 @@ const langElementDesk = document.getElementById("lang-select");
 /** tag select cuando la pantalla es pequeña */
 const langElementSmall = document.getElementById("lang-select-small");
 
+const label = document.getElementsByTagName("label");
+
+label.addEventListener("click", (event) => {
+  event.preventDefault();
+  event.stopPropagation();
+});
+
 /** Comprobando que el valor escogido esta bien seleccionado */
-langElementDesk.addEventListener("change", () => {
+langElementDesk.addEventListener("change", (event) => {
+  event.preventDefault();
   const selectValue = langElementDesk.value;
   changeLanguage(selectValue);
 });
-langElementSmall.addEventListener("change", () => {
+
+langElementSmall.addEventListener("change", (event) => {
+  event.preventDefault();
   const selectValue = langElementSmall.value;
   changeLanguage(selectValue);
 });
 
+/** data-section y data-values para cambio de idioma */
+
 const textsChange = document.querySelectorAll("[data-section]")
 
 const changeLanguage = async language => {
-  const requestJson = await fetch(`./languages/${language}.json`)
-  const texts = await requestJson.json()
-  
-  for (const textChange of textsChange) {
-    const section = textChange.dataset.section;
-    const value = textChange.dataset.value;
-    textChange.innerHTML = texts[section][value]
-  } 
+  try {
+    
+    const requestJson = await fetch(`./languages/${language}.json`);
+    if (!requestJson.ok) {
+      throw new Error('Error al cargar el archivo JSON');
+    }
+    const texts = await requestJson.json();
+
+    for (const textChange of textsChange) {
+      const section = textChange.dataset.section;
+      const value = textChange.dataset.value;
+      if (texts[section] && texts[section][value]) {
+        textChange.innerHTML = texts[section][value];
+      }
+    }
+  } catch (err) {
+    console.error('Error ocurrido:', err.message);
+  }
 };
 
 /** Language preferences of the user */

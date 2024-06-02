@@ -33,7 +33,10 @@
               data-section="navbar" data-value="projects" data-section="navbar" data-value="projects">Proyectos</a>
             </li>
             <li>
-              <a data-section="navbar" data-value="lang">Idioma</a>
+              <label for="lang-select"
+              data-section="navbar" 
+              data-value="lang"
+              onclick="return false;">Idioma</label>
               <select id="lang-select">
                 <option id="spanish" value="es">Español
                 </option>
@@ -74,7 +77,10 @@
             <a href="#projects-section" onclick="toggleMenu()" data-section="navbar" data-value="projects">Proyectos</a>
           </li>
           <li>
-            <a data-section="navbar" data-value="lang">Idioma</a>
+            <label 
+            for="lang-select-small" 
+            data-section="navbar" 
+            data-value="lang">Idioma</label>
             <select id="lang-select-small">
               <option id="spanish" value="es">Español
               </option>
@@ -216,8 +222,8 @@
               <img src="./assets/projetcs_images/BlueShield_SecurityAudit.png" alt="security_audit">
               <div class="layer">
                 <h3 id="project-card-title"
-                data-section=""
-                data-value="">Informe de auditoría</h3>
+                data-section="project1"
+                data-value="projectTitle">Informe de auditoría</h3>
                 <p data-section=""
                 data-value="">Informe de auditoría realizado sobre una web para comprobar su seguridad y la lógica del aplicativo web.</p>
                 <a href="https://github.com/dariomlopez/dariomlopez.github.io/tree/47e29e1b043d8a083c0cac34b874c3258e1a7a34/documents/Security_Audit" target="_blank" download="AuditoriaSeguridad_BlueShield.pdf"><i class="fa-solid fa-link"></i>
