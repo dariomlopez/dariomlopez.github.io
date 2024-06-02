@@ -15,10 +15,6 @@ const langElementSmall = document.getElementById("lang-select-small");
 
 const label = document.getElementsByTagName("label");
 
-label.addEventListener("click", (event) => {
-  event.preventDefault();
-  event.stopPropagation();
-});
 
 /** Comprobando que el valor escogido esta bien seleccionado */
 langElementDesk.addEventListener("change", (event) => {
