@@ -13,8 +13,6 @@ const langElementDesk = document.getElementById("lang-select");
 /** tag select cuando la pantalla es pequeña */
 const langElementSmall = document.getElementById("lang-select-small");
 
-const label = document.getElementsByTagName("label");
-
 
 /** Comprobando que el valor escogido esta bien seleccionado */
 langElementDesk.addEventListener("change", (event) => {

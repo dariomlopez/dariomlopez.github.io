@@ -91,8 +91,8 @@ a:hover {
   color: var(--shadow);
 }
 
-select {
-  position: static;
+select option {
+  margin: 3px auto;
 }
 
 /*desktop nav*/
