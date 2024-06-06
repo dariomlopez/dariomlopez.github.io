@@ -52,15 +52,14 @@
   },
 
   "project2": {
-    "projectTitle":"Informe de auditoria",
-    "projectDescription": "Informe de auditoría realizado sobre una web para comprobar su seguridad y la lógica del aplicativo web.",
-    "projectLink": "Ver PDF"
+    "projectTitle":"Proyecto Back-End",
+    "projectDescription": "Back-end de una página web utilizando herramientas como <b>Express.js</b> sobre <i class=\"fa-brands fa-node-js\"></i> <b>Node.js</b> para endpoints y <i class=\"fa-solid fa-database\"></i> <b>MySQL</b> como base de datos.",
+    "projectLink": "Ver código"
   },
   
   "project3": {
     "projectTitle":"Proyecto Back-End",
-    "projectDescription": "Back-end de una página web utilizando herramientas como <b>Express.js</b> sobre <i class=\"fa-brands fa-node-js\"></i> <b>Node.js</b> para endpoints y <i class=\"fa-solid fa-database\"></i> <b>MySQL</b> como base de datos.",
-    "projectLink": "Ver PDF"
+    "projectDescription": "Back-end de una página web utilizando herramientas como <b>Express.js</b> sobre <i class=\"fa-brands fa-node-js\"></i> <b>Node.js</b> para endpoints y <i class=\"fa-solid fa-database\"></i> <b>MySQL</b> como base de datos."
   },
   
   "project4": {
