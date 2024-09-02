@@ -358,20 +358,16 @@ select option {
   margin: 65px auto 40px;
 }
 
-#div-title {
-  justify-content: center; 
-  align-items: center;
-  margin: 20px 0 20px 0;
-}
-
-#div-title > p {
+.div-title {
+  /* justify-content: center; 
+  align-items: center; */
+  /* margin: 20px 0 20px 0; */
   background: var(--text-bg-sec);
   border-radius: 5px;
-  padding: 8px;
+  padding: 6px;
   text-align: center;
-  justify-content: center;
   font-size: 1.25em;
-  width: fit-content;
+  /* width: fit-content; */
 }
 
 /* -------------------------------------------------------------- */
@@ -428,7 +424,7 @@ select option {
 .slide h2 {
   background: var(--text-bg-sec);
   border-radius: 5px;
-  padding: 8px;
+  /* padding: 8px; */
   text-align: center;
   justify-content: center;
   margin: 10px 0;
