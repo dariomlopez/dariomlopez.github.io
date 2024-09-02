@@ -13,6 +13,8 @@ const langElementDesk = document.getElementById("lang-select");
 /** tag select cuando la pantalla es pequeña */
 const langElementSmall = document.getElementById("lang-select-small");
 
+let slideIndex = 0;
+
 
 /** Comprobando que el valor escogido esta bien seleccionado */
 langElementDesk.addEventListener("change", (event) => {
@@ -121,3 +123,29 @@ checkedState();
 
 /** Escucha cambios en el checkbox y aplica el tema correspondiente */
 toggle.addEventListener("change", toggleTheme);
+
+/* Slides logic */
+
+const showSlides = (index) => {
+  const slides = document.querySelectorAll('.slide');
+  
+  if (index >= slides.length) slideIndex = 0;
+  if (index < 0) slideIndex = slides.length - 1;
+  
+  slides.forEach(slide => slide.style.display = 'none');
+  
+  slides[slideIndex].style.display = 'block';
+};
+
+document.querySelector('.prev').addEventListener('click', () => {
+  slideIndex--;
+  showSlides(slideIndex);
+});
+
+document.querySelector('.next').addEventListener('click', () => {
+  slideIndex++;
+  showSlides(slideIndex);
+});
+
+// Initialize the first slide
+showSlides(slideIndex);

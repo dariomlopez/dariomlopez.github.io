@@ -349,9 +349,13 @@ select option {
   transition: all 1s ease;
 }
 
-#exp-title, #edu-title, #project-section-title {
+#exp-title, #edu-title {
   font-size: 2.25em;
-  margin: 65px 0 40px 0;
+  margin: 65px auto 0px;
+}
+
+#project-section-title {
+  margin: 65px auto 40px;
 }
 
 #div-title {
@@ -369,6 +373,74 @@ select option {
   font-size: 1.25em;
   width: fit-content;
 }
+
+/* -------------------------------------------------------------- */
+/* Basic styling for the slider */
+.slider {
+  position: relative;
+  width: 100%;
+  max-width: 80vw; /* Adjust as needed */
+  margin: auto;
+  overflow: hidden;
+  color: var(--main-bg);
+}
+
+.slides {
+  display: flex;
+  transition: all 1.5s ease;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation buttons */
+.prev, .next {
+  cursor: pointer;
+  /* position: absolute; */
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  /* margin-top: -10px; */
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(245, 186, 186, 0.5);
+}
+
+.next {
+  right: 0;
+  /* border-radius: 3px 0 0 3px; */
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(162, 226, 248, 0.8);
+  transition: 0.9s ease;
+}
+
+/* Additional styling for the content inside slides */
+.slide h2 {
+  background: var(--text-bg-sec);
+  border-radius: 5px;
+  padding: 8px;
+  text-align: center;
+  justify-content: center;
+  margin: 10px 0;
+  font-size: 2.2em;
+}
+
+.slide p {
+  font-size: 1.5em;
+  color: var(--text-main);
+}
+
+/* end of slides styles */
 
 #div-exp {
   display: flex;

@@ -58,17 +58,17 @@
   },
   
   "project3": {
-    "projectTitle":"Proyecto Back-End",
-    "projectDescription": "Back-end de una página web utilizando herramientas como <b>Express.js</b> sobre <i class=\"fa-brands fa-node-js\"></i> <b>Node.js</b> para endpoints y <i class=\"fa-solid fa-database\"></i> <b>MySQL</b> como base de datos."
+    "projectTitle":"Generador de contraseñas",
+    "projectDescription": "Un generador de contraseñas aleatorio hecho con vanilla <i class=\"fa fa-html5\" aria-hidden=\"true\"></i> <b>HTML</b>, <i class=\"fa fa-css3\" aria-hidden=\"true\"></i> <b>CSS</b> y <i class=\"fab fa-js\"></i> <b>JavaScript</b>"
   },
   
   "project4": {
-    "projectTitle":"Informe de auditoria",
+    "projectTitle":"Clon del juego Pong",
     "projectDescription": "Informe de auditoría realizado sobre una web para comprobar su seguridad y la lógica del aplicativo web."
   },
   
   "project5": {
-    "projectTitle":"Informe de auditoria",
+    "projectTitle":"Calculadora",
     "projectDescription": "Informe de auditoría realizado sobre una web para comprobar su seguridad y la lógica del aplicativo web."
   }
 }
