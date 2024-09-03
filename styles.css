@@ -330,7 +330,7 @@ select option {
 }
 
 #div-about {
-  width:60%;
+  width:80%;
   font-size: 1.25em;
 }
 
@@ -361,13 +361,13 @@ select option {
 .div-title {
   /* justify-content: center; 
   align-items: center; */
-  /* margin: 20px 0 20px 0; */
+  margin: 0 0 20px;
   background: var(--text-bg-sec);
-  border-radius: 5px;
-  padding: 6px;
+  border-radius: 26px;
+  padding: 2.5px 0;
   text-align: center;
   font-size: 1.25em;
-  /* width: fit-content; */
+  /* max-width: fit-content; */
 }
 
 /* -------------------------------------------------------------- */
@@ -383,7 +383,7 @@ select option {
 
 .slides {
   display: flex;
-  transition: all 1.5s ease;
+  transition: all 0.5s ease;
 }
 
 .slide {
@@ -396,7 +396,7 @@ select option {
 /* Navigation buttons */
 .prev, .next {
   cursor: pointer;
-  /* position: absolute; */
+  position: relative;
   top: 50%;
   width: auto;
   padding: 16px;
@@ -418,17 +418,27 @@ select option {
 .prev:hover, .next:hover {
   background-color: rgba(162, 226, 248, 0.8);
   transition: 0.9s ease;
+  transform: scale(1.15);
 }
 
 /* Additional styling for the content inside slides */
 .slide h2 {
+  display: contents;
   background: var(--text-bg-sec);
-  border-radius: 5px;
-  /* padding: 8px; */
   text-align: center;
   justify-content: center;
   margin: 10px 0;
   font-size: 2.2em;
+  /* width: 70vw; */
+}
+
+.slide h3 {
+  font-size: 1.7em;
+  margin: 0;
+}
+
+.slide h4 {
+  margin: 10px 0;
 }
 
 .slide p {

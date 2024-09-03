@@ -13,9 +13,6 @@ const langElementDesk = document.getElementById("lang-select");
 /** tag select cuando la pantalla es pequeña */
 const langElementSmall = document.getElementById("lang-select-small");
 
-let slideIndex = 0;
-
-
 /** Comprobando que el valor escogido esta bien seleccionado */
 langElementDesk.addEventListener("change", (event) => {
   event.preventDefault();
@@ -126,26 +123,43 @@ toggle.addEventListener("change", toggleTheme);
 
 /* Slides logic */
 
-const showSlides = (index) => {
-  const slides = document.querySelectorAll('.slide');
-  
-  if (index >= slides.length) slideIndex = 0;
-  if (index < 0) slideIndex = slides.length - 1;
-  
-  slides.forEach(slide => slide.style.display = 'none');
-  
-  slides[slideIndex].style.display = 'block';
-};
+document.querySelectorAll(".slider").forEach(function(slider) {
+  let slideIndex = 0;
+  const slides = slider.querySelectorAll('.slide');
+  const prevButton = slider.querySelector('.prev');
+  const nextButton = slider.querySelector('.next');
 
-document.querySelector('.prev').addEventListener('click', () => {
-  slideIndex--;
+  const showSlides = (index) => {
+    // const slides = document.querySelectorAll('.slide');
+
+    if (index >= slides.length) {
+      slideIndex = 0;
+    } else if (index < 0) {
+      slideIndex = slides.length - 1;
+    } else {
+      slideIndex = index;
+    }
+
+    slides.forEach(slide => slide.style.display = 'none');
+
+    slides[slideIndex].style.display = 'block';
+  };
+
+  // const nextSlide = () => {
+  //   slideIndex++;
+  //   showSlides(slideIndex);
+  // };
+
+  document.querySelector('.prev').addEventListener('click', () => {
+    slideIndex--;
+    showSlides(slideIndex);
+  });
+
+  document.querySelector('.next').addEventListener('click', () => {
+    slideIndex++;
+    showSlides(slideIndex);
+  });
+
+  // Initialize the first slide
   showSlides(slideIndex);
 });
-
-document.querySelector('.next').addEventListener('click', () => {
-  slideIndex++;
-  showSlides(slideIndex);
-});
-
-// Initialize the first slide
-showSlides(slideIndex);
