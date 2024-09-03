@@ -72,7 +72,7 @@ nav {
 }
 
 .nav-links {
-  gap: 2rem;
+  gap: 1.5rem;
   list-style: none;
   font-size: 1.35em;
 }
@@ -102,7 +102,7 @@ select option {
   position: sticky;
   top: 0;
   left: 0;
-  z-index: 90;
+  z-index: 9990;
   background: transparent;
   backdrop-filter: blur(15px);
 }
@@ -111,7 +111,7 @@ select option {
 
 .logo {
   top: 5px;
-  left: 10px;
+  left: 2.5em;
   width: 105px;
   height: 103px;
   position: fixed;
@@ -128,7 +128,7 @@ select option {
   padding: 0;
   top: 0;
   background: transparent;
-  backdrop-filter: blur(7.8px);
+  backdrop-filter: blur(15px);
 }
 
 .hamburger-menu {
@@ -428,7 +428,9 @@ select option {
   text-align: center;
   justify-content: center;
   margin: 10px 0;
-  font-size: 2.2em;
+  font-size: 2em;
+  word-wrap: break-word;
+  hyphens: auto;
   /* width: 70vw; */
 }
 
@@ -444,6 +446,7 @@ select option {
 .slide p {
   font-size: 1.5em;
   color: var(--text-main);
+  hyphens: auto;
 }
 
 /* end of slides styles */
@@ -483,8 +486,8 @@ select option {
 }
 
 .project img {
-  height: 350px;
-  width: 400px;
+  height: 400px;
+  width: 350px;
   border-radius: 15px;
   display: block;
   transition: transform 900ms;
@@ -493,6 +496,20 @@ select option {
 #calculadora-react, #proyecto-back-end {
   height: 400px;
   width: 320px;
+}
+
+#project-slider button {
+  top: -30vh;
+  padding: 30px;
+  font-size: 2em;
+}
+
+#project-slider .prev {
+  left: -30%;
+}
+
+#project-slider .next {
+  left: 30%;
 }
 
 .layer {

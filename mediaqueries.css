@@ -16,8 +16,8 @@
 
 @media screen and (max-width: 1030px) {
   nav .logo {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
   }
 }
 
@@ -56,6 +56,8 @@
   }
 }
 
+/* TODO: añadir comportamiento de botones de proyecto cuando la pantalla es menor de 750px */
+
 @media screen and (max-width: 750px) {
   .project-list {
     grid-template-columns: 1fr;
@@ -66,6 +68,20 @@
     height: 290px;
     width: 350px;
   }
+
+  #project-slider button {
+    top: 0;
+    padding: 16px;
+    font-size: 1em;
+  }
+
+  #project-slider .prev {
+    left: 0;
+  }
+  
+  #project-slider .next {
+    left: 0;
+  }
 }
 
 @media screen and (max-width: 580px) {
@@ -75,5 +91,9 @@
 
   .project-list {
     gap: 20px;
+  }
+
+  .slide h2 {
+    font-size: 1.5em;
   }
 }

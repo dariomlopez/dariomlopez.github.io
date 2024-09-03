@@ -123,15 +123,16 @@ toggle.addEventListener("change", toggleTheme);
 
 /* Slides logic */
 
-document.querySelectorAll(".slider").forEach(function(slider) {
+function initializeSlider(sliderId) {
+  const slider = document.getElementById(sliderId);
+  if (!slider) return;
+
   let slideIndex = 0;
-  const slides = slider.querySelectorAll('.slide');
-  const prevButton = slider.querySelector('.prev');
-  const nextButton = slider.querySelector('.next');
+  const slides = slider.querySelectorAll(".slide");
+  const prevButton = slider.querySelector(".prev");
+  const nextButton = slider.querySelector(".next");
 
-  const showSlides = (index) => {
-    // const slides = document.querySelectorAll('.slide');
-
+  function showSlides(index) {
     if (index >= slides.length) {
       slideIndex = 0;
     } else if (index < 0) {
@@ -140,26 +141,19 @@ document.querySelectorAll(".slider").forEach(function(slider) {
       slideIndex = index;
     }
 
-    slides.forEach(slide => slide.style.display = 'none');
+    slides.forEach(slide => (slide.style.display = "none"));
+    slides[slideIndex].style.display = "block";
+  }
 
-    slides[slideIndex].style.display = 'block';
-  };
+  prevButton.addEventListener("click", () => showSlides(slideIndex - 1));
+  nextButton.addEventListener("click", () => showSlides(slideIndex + 1));
 
-  // const nextSlide = () => {
-  //   slideIndex++;
-  //   showSlides(slideIndex);
-  // };
-
-  document.querySelector('.prev').addEventListener('click', () => {
-    slideIndex--;
-    showSlides(slideIndex);
-  });
-
-  document.querySelector('.next').addEventListener('click', () => {
-    slideIndex++;
-    showSlides(slideIndex);
-  });
-
-  // Initialize the first slide
   showSlides(slideIndex);
+}
+
+// Initialize sliders for each section
+document.addEventListener("DOMContentLoaded", function() {
+  initializeSlider("experience-slider");
+  initializeSlider("education-slider");
+  initializeSlider("project-slider");
 });
