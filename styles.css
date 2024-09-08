@@ -487,7 +487,7 @@ select option {
 
 .project img {
   height: 50vh;
-  width: 30vw;
+  width: content;
   border-radius: 15px;
   display: block;
   transition: transform 900ms;
@@ -498,18 +498,22 @@ select option {
   width: 320px;
 }
 
+#pass-generator, #pong-clone {
+  width: 500px;
+}
+
 #project-slider button {
-  top: -30vh;
+  top: -40vh;
   padding: 30px;
   font-size: 2em;
 }
 
 #project-slider .prev {
-  left: -200px;
+  left: -17rem;
 }
 
 #project-slider .next {
-  left: 200px;
+  left: 17rem;
 }
 
 .layer {

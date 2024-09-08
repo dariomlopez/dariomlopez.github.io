@@ -14,7 +14,7 @@
   }
 } */
 
-@media screen and (max-width: 3840px) {
+/* @media screen and (max-width: 3840px) {
   #project-slider button {
     top: -30vh;
     padding: 30px;
@@ -28,21 +28,21 @@
   #project-slider .next {
     left: 20%;
   }
-}
+} */
 
 @media screen and (max-width: 1150px) {
   #project-slider button {
-    top: -30vh;
+    top: 0;
     padding: 30px;
     font-size: 2em;
   }
   
   #project-slider .prev {
-    left: -25%;
+    left: -10rem;
   }
   
   #project-slider .next {
-    left: 25%;
+    left: 10rem;
   }
 }
 
