@@ -366,7 +366,7 @@ select option {
   border-radius: 26px;
   padding: 2.5px 0;
   text-align: center;
-  font-size: 1.25em;
+  /* font-size: 1.25em; */
   /* max-width: fit-content; */
 }
 
@@ -435,7 +435,7 @@ select option {
 }
 
 .slide h3 {
-  font-size: 1.7em;
+  font-size: 1.5em;
   margin: 0;
 }
 
@@ -444,7 +444,7 @@ select option {
 }
 
 .slide p {
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: var(--text-main);
   hyphens: auto;
 }
@@ -486,8 +486,8 @@ select option {
 }
 
 .project img {
-  height: 400px;
-  width: 350px;
+  height: 50vh;
+  width: 30vw;
   border-radius: 15px;
   display: block;
   transition: transform 900ms;
@@ -505,11 +505,11 @@ select option {
 }
 
 #project-slider .prev {
-  left: -30%;
+  left: -200px;
 }
 
 #project-slider .next {
-  left: 30%;
+  left: 200px;
 }
 
 .layer {

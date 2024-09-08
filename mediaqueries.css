@@ -1,4 +1,4 @@
-@media screen and (max-width: 1520px) {
+/* @media screen and (max-width: 1520px) {
   .project-list {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
@@ -11,6 +11,38 @@
 
   .layer p {
     font-size: 1.3rem;
+  }
+} */
+
+@media screen and (max-width: 3840px) {
+  #project-slider button {
+    top: -30vh;
+    padding: 30px;
+    font-size: 2em;
+  }
+  
+  #project-slider .prev {
+    left: -20%;
+  }
+  
+  #project-slider .next {
+    left: 20%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  #project-slider button {
+    top: -30vh;
+    padding: 30px;
+    font-size: 2em;
+  }
+  
+  #project-slider .prev {
+    left: -25%;
+  }
+  
+  #project-slider .next {
+    left: 25%;
   }
 }
 
@@ -43,7 +75,7 @@
 
 @media screen and (max-width: 900px) {
   .project img {
-    height: 200px;
+    height: 350px;
     width: 300px;
   }
 
@@ -95,5 +127,12 @@
 
   .slide h2 {
     font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .project img {
+    height: 250px;
+    width: 150px;
   }
 }
