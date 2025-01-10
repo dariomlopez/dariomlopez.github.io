@@ -9,19 +9,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <title>Dario Maroto Portfolio</title>
     <style>
         :root {
-            --primary-color: #2c3e50;
-            --secondary-color: #3498db;
-            --background-light: #f4f6f7;
-            --text-color: #333;
+            --primary-color: #bbeef08a;
+            --secondary-color: #f0f0f0;
+            --accent-color: #3994f5;
+            --text-color: #261c3b;
+            --background-light: #c4d8e9;
+            --background-dark: #1b3046;
+            --text-dark: #d4e5f7;
         }
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+        .dark-mode {
+            --primary-color: #b7eaeea8;
+            --secondary-color: #495057;
+            --accent-color: #17a2b8;
+            --text-color: #1f1652;
         }
 
         body {
@@ -29,7 +34,14 @@
             line-height: 1.6;
             background-color: var(--background-light);
             color: var(--text-color);
-            font-size: 25px;
+            font-size: 20px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            text-align: center;
+        }
+
+        body.dark-mode {
+            background-color: var(--background-dark);
+            color: var(--text-dark);
         }
 
         .portfolio-container {
@@ -40,23 +52,36 @@
 
         .portfolio-header {
             background-color: var(--primary-color);
-            color: white;
+            color: var(--text-color);
             text-align: center;
             padding: 30px;
             margin-bottom: 30px;
             border-radius: 10px;
+            transition: background-color 0.3s ease;
+            font-size: 1.45em;
+        }
+
+        .portfolio-header.dark-mode {
+            background-color: var(--primary-color);
         }
 
         .accordion-section {
             margin-bottom: 30px;
+            text-align: left;
+            font-size: 1.25em;
         }
 
         .accordion-item {
-            background-color: white;
-            margin-bottom: 15px;
+            background-color: var(--primary-color);
+            margin: 15px;
             border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             overflow: hidden;
+            transition: background-color 0.8s ease;
+        }
+
+        .accordion-item.dark-mode {
+            background-color: var(--secondary-color);
         }
 
         .accordion-header {
@@ -64,78 +89,35 @@
             justify-content: space-between;
             align-items: center;
             padding: 15px 20px;
-            background-color: #f1f4f6;
+            background-color: var(--primary-color);
             cursor: pointer;
-            transition: background-color 0.3s ease;
+            transition: background-color 1.5s ease;
+            color: var(--text-color);
+            font-weight: 600;
         }
 
         .accordion-header:hover {
-            background-color: #e1e7eb;
+            background-color: var(--accent-color);
+        }
+
+        .accordion-header.active {
+            background-color: var(--accent-color);
+            color: var(--text-color);
         }
 
         .accordion-content {
             display: none;
-            padding: 20px;
-            background-color: white;
+            margin: 20px 30px;
+            background-color: var(--primary-color);
+            color: var(--text-color);
         }
 
-        .accordion-header.active {
-            background-color: var(--secondary-color);
-            color: white;
-        }
-
-        .accordion-header.active + .accordion-content {
-            display: block;
-        }
-
-        .tech-stack {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 15px;
-        }
-
-        .tech-badge {
-            background-color: var(--secondary-color);
-            color: white;
-            padding: 5px 10px;
-            border-radius: 3px;
-            font-size: 1em;
-        }
-
-        .achievement-list {
-            list-style-type: disc;
-            padding-left: 30px;
-        }
-
-        /* New styles for About Me and Contact sections */
-        .about-me,
-        .contact-section {
-            margin-top: 40px;
-        }
-
-        .about-me p {
-            font-size: 1.1em;
-            line-height: 1.8;
-        }
-
-        .social-media {
-            display: flex;
-        
-            gap: 20px;
-        }
-
-        .social-media a {
-            color: var(--primary-color);
-            text-decoration: none;
-        }
-
-        .social-media i {
-            transition: color 0.3s ease;
-        }
-
-        .social-media a:hover i {
-            color: var(--secondary-color);
+        .dark-mode-toggle {
+            /* position: fixed;
+            top: 20px;
+            right: 20px; */
+            cursor: pointer;
+            font-size: 24px;
         }
     </style>
 </head>
@@ -143,16 +125,16 @@
     <div class="portfolio-container">
         <div class="portfolio-header">
             <h1>Dario Maroto</h1>
-            <p>Senior Backend Engineer | Cloud Native Architect | Distributed Systems Specialist</p>
+            <p>Backend Developer</p>
         </div>
-
+        <i class="fas fa-moon dark-mode-toggle" onclick="toggleDarkMode()"></i> 
         <div class="accordion-section">
             <h2>Professional Experiences</h2>
             <!-- Experience 1 -->
             <div class="accordion-item">
                 <div class="accordion-header">
-                    Senior Backend Engineer @ TechInnovate Solutions
-                    <span>2021 - Present</span>
+                    Backend Developer @ VASS
+                    <span>2024 - Present</span>
                 </div>
                 <div class="accordion-content">
                     <p>Led the architectural redesign of a mission-critical microservices platform, improving system reliability and scalability.</p>
@@ -162,10 +144,9 @@
                         <li>Mentored a team of 6 junior developers, improving overall team productivity</li>
                     </ul>
                     <div class="tech-stack">
-                        <span class="tech-badge">Java</span>
-                        <span class="tech-badge">Kubernetes</span>
-                        <span class="tech-badge">Apache Kafka</span>
-                        <span class="tech-badge">AWS</span>
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">SQL</span>
+                        <span class="tech-badge">Docker</span>
                     </div>
                 </div>
             </div>
@@ -245,7 +226,8 @@
         </div>
     </div>
 
-  <script src="https://kit.fontawesome.com/e8f032c13c.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e8f032c13c.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
     <script>
         document.querySelectorAll('.accordion-header').forEach(header => {
             header.addEventListener('click', () => {
@@ -263,6 +245,19 @@
                 content.style.display = content.style.display === 'block' ? 'none' : 'block';
             });
         });
+
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+            const icon = document.querySelector('.dark-mode-toggle');
+            if (document.body.classList.contains('dark-mode')) {
+                icon.classList.remove('fa-moon');
+                icon.classList.add('fa-sun');
+            } else {
+                icon.classList.remove('fa-sun');
+                icon.classList.add('fa-moon');
+            }
+        }
+        
     </script>
 </body>
 </html>
